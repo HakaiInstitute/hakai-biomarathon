@@ -1,0 +1,478 @@
+﻿SampleID,Project,treatment,Library,plate,CollectionDate,DNA_extraction_date,Collection_year,Collection_month,Collection_day,location,tidal_height,tidal_direction,sample_depth_m,sample_volume_mL,sample_time,Extraction Blank,filtration_time,filter_storage_location,collection_notes,DNA_extraction_staff,DNA_extraction_notes,Sample_Box,Qubit,,Library prep
+NEG-PCR1,,PCR blank,Run1,1.1,,,,,,,,,,,,,,,,,,,,,
+QU380001,BIOweekly,Seawater,Run1,1.1,2020-06-01,2022-05-13,2020,6,1,QU38,2.01,Flood,1,1000,43983.41016,,0.4375,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380002,BIOweekly,Seawater,Run1,1.1,2020-06-01,2022-04-04,2020,6,1,QU38,2.01,Flood,1,1000,43983.41045,,0.4375,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380003,BIOweekly,Seawater,Run1,1.1,2020-06-01,2022-05-13,2020,6,1,QU38,2.01,Flood,1,1000,43983.41186,,0.4375,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,289,plate1
+QU380004,BIOweekly,Field blank,Run1,1.1,2020-06-01,2022-05-13,2020,6,1,QU38,2.01,Flood,NA,1000,43983.41311,,0.4375,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380005,BIOweekly,Field blank,Run1,1.1,2020-06-08,2022-05-13,2020,6,8,QU38,5.06,Flood,NA,1000,43990.38681,,0.444444444,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380006,BIOweekly,Seawater,Run1,1.1,2020-06-08,2022-05-13,2020,6,8,QU38,5.06,Flood,1,900,43990.38278,,0.444444444,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380007,BIOweekly,Seawater,Run1,1.1,2020-06-08,2022-05-09,2020,6,8,QU38,5.06,Flood,1,1000,43990.38527,,0.444444444,Marna Freezer,,Rute,,1,,,plate1
+QU380008,BIOweekly,Seawater,Run1,1.1,2020-06-08,2022-05-09,2020,6,8,QU38,5.06,Flood,1,1000,43990.38639,,0.444444444,Marna Freezer,,Rute,leaked a little bit,1,,,plate1
+QU380009,BIOweekly,Field blank,Run1,1.1,2020-06-15,2022-05-13,2020,6,15,QU38,2.15,Ebb,NA,1000,43997.38542,,0.430555556,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380010,BIOweekly,Seawater,Run1,1.1,2020-06-15,2022-05-09,2020,6,15,QU38,2.15,Ebb,1,1000,43997.38716,,0.430555556,Marna Freezer,,Rute,,1,,,plate1
+QU380011,BIOweekly,Seawater,Run1,1.1,2020-06-15,2022-05-13,2020,6,15,QU38,2.15,Ebb,1,1000,43997.38794,,0.430555556,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380012,BIOweekly,Seawater,Run1,1.1,2020-06-15,2022-05-13,2020,6,15,QU38,2.15,Ebb,1,1000,43997.38918,,0.430555556,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380041,BIOweekly,Field blank,Run1,1.1,2020-07-06,2022-05-13,2020,7,6,QU38,3.03,Ebb,NA,1000,44018.39094,,0.411828704,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380042,BIOweekly,Seawater,Run1,1.1,2020-07-06,2022-05-13,2020,7,6,QU38,3.03,Ebb,1,1000,44018.39106,,0.412604167,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380043,BIOweekly,Seawater,Run1,1.1,2020-07-06,2022-05-13,2020,7,6,QU38,3.03,Ebb,1,1000,44018.39184,,0.439606481,Marna Freezer,Sterivex fell off but was put back on and continued filtered.,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380044,BIOweekly,Seawater,Run1,1.1,2020-07-06,2022-05-13,2020,7,6,QU38,3.03,Ebb,1,1000,44018.3926,,0.423391204,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380045,BIOweekly,Field blank,Run1,1.1,2020-07-13,2022-05-13,2020,7,13,QU38,2.38,Flood,NA,1000,44025.38313,,0.425219907,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380046,BIOweekly,Seawater,Run1,1.1,2020-07-13,2022-05-13,2020,7,13,QU38,2.38,Flood,1,1000,44025.38341,,0.418784722,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380047,BIOweekly,Seawater,Run1,1.1,2020-07-13,2022-05-09,2020,7,13,QU38,2.38,Flood,1,1100,44025.38516,,0.4296875,Marna Freezer,accidentally filtered too much water,Rute,,1,,,plate1
+QU380048,BIOweekly,Seawater,Run1,1.1,2020-07-13,2022-05-13,2020,7,13,QU38,2.38,Flood,1,1000,44025.38551,,0.434861111,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380049,BIOweekly,Field blank,Run1,1.1,2020-07-20,2022-05-13,2020,7,20,QU38,2.2,Ebb,NA,1000,44032.39097,,0.427083333,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380050,BIOweekly,Seawater,Run1,1.1,2020-07-20,2022-05-09,2020,7,20,QU38,2.2,Ebb,1,1000,44032.39167,,0.428472222,Marna Freezer,,Rute,,1,,,plate1
+QU380051,BIOweekly,Seawater,Run1,1.1,2020-07-20,2022-05-13,2020,7,20,QU38,2.2,Ebb,1,1000,44032.39236,,0.429861111,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380052,BIOweekly,Seawater,Run1,1.1,2020-07-20,2022-05-13,2020,7,20,QU38,2.2,Ebb,1,1000,44032.39375,,0.436111111,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380053,BIOweekly,Field blank,Run1,1.1,2020-07-27,2022-05-09,2020,7,27,QU38,2.7,Flood,NA,1000,44039.40499,,0.453553241,Marna Freezer,,Rute,,1,,,plate1
+QU380054,BIOweekly,Seawater,Run1,1.1,2020-07-27,2022-05-13,2020,7,27,QU38,2.7,Flood,1,1000,44039.40642,,0.453900463,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380055,BIOweekly,Seawater,Run1,1.1,2020-07-27,2022-05-13,2020,7,27,QU38,2.7,Flood,1,1000,44039.40763,,0.46962963,Marna Freezer,,Rosie Savage,"clogged, needed extra spins",1,,,plate1
+QU380056,BIOweekly,Seawater,Run1,1.1,2020-07-27,2022-05-13,2020,7,27,QU38,2.7,Flood,1,1000,44039.40811,,0.469814815,Marna Freezer,,Rosie Savage,,1,,,plate1
+QU380057,BIOweekly,Field blank,Run1,1.1,2020-08-04,2022-04-04,2020,8,4,QU38,2.83,Ebb,NA,1000,44047.40417,,0.451388889,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380058,BIOweekly,Seawater,Run1,1.1,2020-08-04,2022-04-04,2020,8,4,QU38,2.83,Ebb,1,1000,44047.40486,,0.453472222,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380059,BIOweekly,Seawater,Run1,1.1,2020-08-04,2022-04-04,2020,8,4,QU38,2.83,Ebb,1,1000,44047.40625,,0.453472222,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380060,BIOweekly,Seawater,Run1,1.1,2020-08-04,2022-04-04,2020,8,4,QU38,2.83,Ebb,1,1000,44047.40833,,0.454166667,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380061,BIOweekly,Field blank,Run1,1.1,2020-08-10,2022-05-09,2020,8,10,QU38,3.19,Flood,NA,1050,44053.40444,,0.451134259,Marna Freezer,,Rute,leaked a little bit,1,,,plate1
+QU380062,BIOweekly,Seawater,Run1,1.1,2020-08-10,2022-05-09,2020,8,10,QU38,3.19,Flood,1,1000,44053.40697,,0.451423611,Marna Freezer,,Rute,clog in the spin column,1,,,plate1
+QU380063,BIOweekly,Seawater,Run1,1.1,2020-08-10,2022-05-09,2020,8,10,QU38,3.19,Flood,1,1050,44053.40787,,0.451886574,Marna Freezer,,Rute,,1,,,plate1
+QU380064,BIOweekly,Seawater,Run1,1.1,2020-08-10,2022-05-09,2020,8,10,QU38,3.19,Flood,1,1050,44053.40928,,0.453113426,Marna Freezer,,Rute,leaked a little bit,1,,,plate1
+QU380088,BIOweekly/BIOtidal,Field blank,Run1,1.1,2020-08-17,2022-04-04,2020,8,17,QU38,3.17,Flood,NA,1000,44060.39521,,0.444791667,Marna Freezer,,Rute/CJ,,1,,,plate1
+QU380089,BIOweekly/BIOtidal,Seawater,Run1,1.1,2020-08-17,2022-04-04,2020,8,17,QU38,3.17,Flood,1,1000,44060.40148,,0.446030093,Marna Freezer,Edna filter time was recorded before the crew finished sampling. Changed time to one hour later as samples would have been filtered within an hour. Time is approximate,Rute/CJ,,1,,,plate1
+QU380090,BIOweekly/BIOtidal,Seawater,Run1,1.1,2020-08-17,2022-04-04,2020,8,17,QU38,3.17,Flood,1,1000,44060.40267,,0.448449074,Marna Freezer,Edna filter time was recorded before the crew finished sampling. Changed time to one hour later as samples would have been filtered within an hour. Time is approximate,Rute/CJ,,1,,,plate1
+QU380091,BIOweekly/BIOtidal,Seawater,Run1,1.1,2020-08-17,2022-04-04,2020,8,17,QU38,3.17,Flood,1,1000,44060.40359,,0.448680556,Marna Freezer,Edna filter time was recorded before the crew finished sampling. Changed time to one hour later as samples would have been filtered within an hour. Time is approximate,Rute/CJ,,1,,,plate1
+QU380115,BIOweekly,Field blank,Run1,1.1,2020-08-24,2022-05-09,2020,8,24,QU38,#REF!,#REF!,NA,1000,44067.39753,,0.434282407,,,Rute,,1,,,plate1
+QU380116,BIOweekly,Seawater,Run1,1.1,2020-08-24,2022-05-09,2020,8,24,QU38,#REF!,#REF!,1,1000,44067.3978,,0.437349537,,,Rute,,1,,,plate1
+QU380117,BIOweekly,Seawater,Run1,1.1,2020-08-24,2022-05-09,2020,8,24,QU38,#REF!,#REF!,1,1000,44067.39928,,0.437731481,,,Rute,,1,,,plate1
+QU380118,BIOweekly,Seawater,Run1,1.1,2020-08-24,2022-05-09,2020,8,24,QU38,#REF!,#REF!,1,1000,44067.4002,,0.439351852,,,Rute,leaked a little bit,1,,,plate1
+QU380119,BIOweekly,Field blank,Run1,1.1,2020-08-31,2022-01-21,2020,8,31,QU38,#REF!,#REF!,NA,1000,44074.38786,,0.425243056,,,Kristin,clog in the spin column,1,,,plate1
+QU380120,BIOweekly,Seawater,Run1,1.1,2020-08-31,2022-01-28,2020,8,31,QU38,#REF!,#REF!,1,1000,44074.38775,,0.427847222,,,Kristin,needed extra spin on column,1,,,plate1
+QU380121,BIOweekly,Seawater,Run1,1.1,2020-08-31,2022-01-28,2020,8,31,QU38,#REF!,#REF!,1,1000,44074.38931,,0.456030093,,,Kristin,,1,,,plate1
+QU380122,BIOweekly,Seawater,Run1,1.1,2020-08-31,2022-01-28,2020,8,31,QU38,#REF!,#REF!,1,1000,44074.39016,,0.428738426,,,Kristin,needed extra spin on column,1,,,plate1
+QU380123,BIOweekly,Field blank,Run1,1.1,2020-09-08,2022-05-18,2020,9,8,QU38,#REF!,#REF!,NA,1000,44082.36938,,0.41099537,,,Rosie Savage,leaking during 2hr incubation,1,,,plate1
+QU380124,BIOweekly,Seawater,Run1,1.1,2020-09-08,2022-05-18,2020,9,8,QU38,#REF!,#REF!,1,1000,44082.37153,,0.410868056,,,Rosie Savage,,1,,,plate1
+QU380125,BIOweekly,Seawater,Run1,1.1,2020-09-08,2022-05-18,2020,9,8,QU38,#REF!,#REF!,1,1000,44082.37248,,0.410960648,,,Rosie Savage,leaking during 2hr incubation,1,,,plate1
+QU380126,BIOweekly,Seawater,Run1,1.1,2020-09-08,2022-05-18,2020,9,8,QU38,#REF!,#REF!,1,1000,44082.3736,,0.410416667,,,Rosie Savage,leaking during 2hr incubation,1,,,plate1
+QU380127,BIOweekly,Field blank,Run1,1.1,2020-09-14,2022-01-28,2020,9,14,QU38,#REF!,#REF!,NA,1000,44088.39169,,0.440474537,,,Kristin,,1,,,plate1
+QU380128,BIOweekly,Seawater,Run1,1.1,2020-09-14,2022-03-21,2020,9,14,QU38,#REF!,#REF!,1,1000,44088.39228,,0.443344907,,,Carolyn,,1,,,plate1
+QU380129,BIOweekly,Seawater,Run1,1.1,2020-09-14,2022-01-21,2020,9,14,QU38,#REF!,#REF!,1,1000,44088.39355,,0.447118056,,,Kristin,,1,,,plate1
+QU380130,BIOweekly,Seawater,Run1,1.1,2020-09-14,2022-01-28,2020,9,14,QU38,#REF!,#REF!,1,1000,44088.3947,,0.444872685,,,Kristin,,1,,,plate1
+QU380131,BIOweekly,Field blank,Run1,1.1,2020-09-21,2022-01-21,2020,9,21,QU38,#REF!,#REF!,NA,1000,44095.38869,,0.426909722,,,Kristin,,1,,,plate1
+QU380132,BIOweekly,Seawater,Run1,1.1,2020-09-21,2022-03-21,2020,9,21,QU38,#REF!,#REF!,1,1000,44095.38826,,0.426666667,,,Carolyn,,1,,,plate1
+QU380133,BIOweekly,Seawater,Run1,1.1,2020-09-21,2022-03-21,2020,9,21,QU38,#REF!,#REF!,1,1000,44095.38917,,0.427291667,,,Carolyn,,1,,,plate1
+QU380134,BIOweekly,Seawater,Run1,1.1,2020-09-21,2022-01-28,2020,9,21,QU38,#REF!,#REF!,1,1000,44095.39005,,0.429675926,,,Kristin,,1,,,plate1
+QU380135,BIOweekly,Seawater,Run1,1.1,2020-09-28,2022-03-21,2020,9,28,QU38,#REF!,#REF!,1,1000,44102.42448,,0.528020833,,,Carolyn,,1,,,plate1
+QU380136,BIOweekly,Seawater,Run1,1.1,2020-09-28,2022-01-28,2020,9,28,QU38,#REF!,#REF!,1,1000,44102.42795,,0.528113426,,,Kristin,about 1/3 liquid leaked out during 2 hour incubation,1,,,plate1
+QU380137,BIOweekly,Seawater,Run1,1.1,2020-09-28,2021-12-03,2020,9,28,QU38,#REF!,#REF!,1,1000,44102.42859,,0.528298611,,,Rute/Kristin,2h incubation without rotisserie,1,,,plate1
+QU380138,BIOweekly,Seawater,Run1,1.1,2020-09-28,2022-01-21,2020,9,28,QU38,#REF!,#REF!,1,1000,44102.43028,,0.52806713,,,Kristin,Took 2 additional spins at max speed to get the sample solution to go thru the column,1,,,plate1
+QU380243,BIOweekly,Field blank,Run1,1.1,2021-05-03,2022-05-13,2021,5,3,QU38,#REF!,#REF!,NA,1000,44319.4,,0.461111111,,,Rosie Savage,,3,,,plate1
+QU380244,BIOweekly,Seawater,Run1,1.1,2021-05-03,2022-03-11,2021,5,3,QU38,#REF!,#REF!,1,1000,44319.4,,0.461805556,,,Kristin,,3,,,plate1
+QU380245,BIOweekly,Seawater,Run1,1.1,2021-05-03,2022-02-10,2021,5,3,QU38,#REF!,#REF!,1,1000,44319.40069,,0.463194444,,,Kristin,,3,,,plate1
+QU380246,BIOweekly,Seawater,Run1,1.1,2021-05-03,2022-05-09,2021,5,3,QU38,#REF!,#REF!,1,1000,44319.40139,,0.46875,,,Rute,,3,,,plate1
+QU380247,BIOweekly,Field blank,Run1,1.1,2021-05-10,2022-02-10,2021,5,10,QU38,#REF!,#REF!,NA,1000,44326.38333,,0.429166667,,,Kristin,,3,,,plate1
+QU380248,BIOweekly,Seawater,Run1,1.1,2021-05-10,2022-02-10,2021,5,10,QU38,#REF!,#REF!,1,1000,44326.38333,,0.429861111,,,Kristin,,3,,,plate1
+QU380249,BIOweekly,Seawater,Run1,1.1,2021-05-10,2022-02-10,2021,5,10,QU38,#REF!,#REF!,1,1000,44326.38472,,0.434722222,,,Kristin,,3,,,plate1
+QU380250,BIOweekly,Seawater,Run1,1.1,2021-05-10,2022-05-09,2021,5,10,QU38,#REF!,#REF!,1,1000,44326.38542,,0.434722222,,,Rute,,3,,,plate1
+QU380251,BIOweekly,Field blank,Run1,1.1,2021-05-17,2022-02-18,2021,5,17,QU38,#REF!,#REF!,NA,1000,44333.39514,,0.435416667,,,Kristin,,3,,,plate1
+QU380252,BIOweekly,Seawater,Run1,1.1,2021-05-17,2022-02-10,2021,5,17,QU38,#REF!,#REF!,1,1000,44333.39514,,0.445833333,,,Kristin,,3,,,plate1
+QU380253,BIOweekly,Seawater,Run1,1.1,2021-05-17,2022-05-09,2021,5,17,QU38,#REF!,#REF!,1,1000,44333.39583,,0.445138889,,,Rute,leaked a little bit,3,,,plate1
+QU380255,BIOweekly,Field blank,Run1,1.1,2021-05-25,2022-02-10,2021,5,25,QU38,#REF!,#REF!,NA,1000,44341.39583,,0.441666667,,,Kristin,,3,,,plate1
+QU380256,BIOweekly,Seawater,Run1,1.1,2021-05-25,2022-03-11,2021,5,25,QU38,#REF!,#REF!,1,900,44341.39653,,0.479166667,,We forgot to bring eDNA sampler. We reached ~30 cm from the surface.,Kristin,,3,,,plate1
+QU380257,BIOweekly,Seawater,Run1,1.1,2021-05-25,2022-04-12,2021,5,25,QU38,#REF!,#REF!,1,900,44341.39722,,0.479166667,,We forgot to bring eDNA sampler. We reached ~30 cm from the surface.,Carly,,3,,,plate1
+QU380258,BIOweekly,Seawater,Run1,1.1,2021-05-25,2022-02-10,2021,5,25,QU38,#REF!,#REF!,1,900,44341.39583,,0.475,,We forgot to bring eDNA sampler. We reached ~30 cm from the surface.,Kristin,,3,,,plate1
+QU380259,BIOweekly,Field blank,Run1,1.1,2021-05-31,2022-04-12,2021,5,31,QU38,#REF!,#REF!,NA,1000,44347.39375,,0.451388889,,,Carly,,3,,,plate1
+QU380260,BIOweekly,Seawater,Run1,1.1,2021-05-31,2022-03-11,2021,5,31,QU38,#REF!,#REF!,1,1000,44347.39583,,0.454861111,,,Kristin,,3,,,plate1
+QU380261,BIOweekly,Seawater,Run1,1.1,2021-05-31,2022-03-02,2021,5,31,QU38,#REF!,#REF!,1,1000,44347.39722,,0.45625,,,Kristin,,3,,,plate1
+QU380262,BIOweekly,Field blank,Run1,1.1,2021-06-07,2022-03-02,2021,6,7,QU38,#REF!,#REF!,NA,1000,44354.38472,,0.429166667,,,Kristin,,3,,,plate1
+QU380263,BIOweekly,Seawater,Run1,1.1,2021-06-07,2022-03-02,2021,6,7,QU38,#REF!,#REF!,1,1000,44354.38542,,0.429861111,,,Kristin,Extra spin on column,3,,,plate1
+QU380265,BIOweekly,Seawater,Run1,1.1,2021-06-07,2022-02-18,2021,6,7,QU38,#REF!,#REF!,1,1000,44354.38681,,0.429861111,,,Kristin,,3,,,plate1
+QU380266,BIOweekly,Field blank,Run1,1.1,2021-06-14,2022-02-18,2021,6,14,QU38,#REF!,#REF!,NA,1000,44361.39375,,0.434027778,,,Kristin,Leaked during 2 hour incubation,3,,,plate1
+QU380267,BIOweekly,Seawater,Run1,1.1,2021-06-14,2022-03-02,2021,6,14,QU38,#REF!,#REF!,1,1000,44361.39375,,0.44375,,,Kristin,,3,,,plate1
+QU380268,BIOweekly,Seawater,Run1,1.1,2021-06-14,2022-02-18,2021,6,14,QU38,#REF!,#REF!,1,1000,44361.39514,,0.439583333,,,Kristin,Extra spin on column,3,,,plate1
+QU380269,BIOweekly,Seawater,Run1,1.1,2021-06-14,2022-02-18,2021,6,14,QU38,#REF!,#REF!,1,1000,44361.39653,,0.442361111,,,Kristin,,3,,,plate1
+QU380270,BIOweekly,Field blank,Run1,1.1,2021-06-21,2022-03-02,2021,6,21,QU38,#REF!,#REF!,NA,1000,44368.38819,,0.427777778,,,Kristin,,3,,,plate1
+QU380271,BIOweekly,Seawater,Run1,1.1,2021-06-21,2022-04-19,2021,6,21,QU38,#REF!,#REF!,1,1000,44368.38889,,0.429166667,,,Carly,,3,,,plate1
+QU380272,BIOweekly,Seawater,Run1,1.1,2021-06-21,2022-04-12,2021,6,21,QU38,#REF!,#REF!,1,1000,44368.38958,,0.429166667,,,Carly,,3,,,plate1
+QU380273,BIOweekly,Seawater,Run1,1.1,2021-06-21,2022-03-02,2021,6,21,QU38,#REF!,#REF!,1,1000,44368.39097,,0.432638889,,,Kristin,,3,,,plate1
+QU380274,BIOweekly,Field blank,Run1,1.1,2021-06-28,2022-03-11,2021,6,28,QU38,#REF!,#REF!,NA,1000,44375.38264,,0.420138889,,,Kristin,,3,,,plate1
+QU380275,BIOweekly,Seawater,Run1,1.1,2021-06-28,2022-02-18,2021,6,28,QU38,#REF!,#REF!,1,1000,44375.38264,,0.4375,,,Kristin,,3,,,plate1
+NEG-PCR2,,PCR blank,Run1,1.2,,,,,,,,,,,,,,,,,,,,,
+QU380139,BIOweekly,Field blank,Run1,1.2,2020-10-05,2022-03-21,2020,10,5,QU38,#REF!,#REF!,NA,1000,44109.38487,,0.432696759,,,Carolyn,,1,,,plate2
+QU380140,BIOweekly,Seawater,Run1,1.2,2020-10-05,2022-03-21,2020,10,5,QU38,#REF!,#REF!,1,1000,44109.38597,,0.434548611,,,Carolyn,,1,,,plate2
+QU380141,BIOweekly,Seawater,Run1,1.2,2020-10-05,2020-01-14,2020,10,5,QU38,#REF!,#REF!,1,1000,44109.38691,,0.43693287,,,Kristin,,1,,,plate2
+QU380142,BIOweekly,Seawater,Run1,1.2,2020-10-05,2022-03-21,2020,10,5,QU38,#REF!,#REF!,1,1000,44109.38775,,0.435,,,Carolyn,,1,,,plate2
+QU380143,BIOweekly,Field blank,Run1,1.2,2020-10-14,2020-01-14,2020,10,14,QU38,#REF!,#REF!,NA,1000,44118.39311,,0.465289352,,,Kristin,,1,,,plate2
+QU380144,BIOweekly,Seawater,Run1,1.2,2020-10-14,2021-12-03,2020,10,14,QU38,#REF!,#REF!,1,1000,44118.39418,,0.465775463,,,Rute/Kristin,2h incubation without rotisserie,1,,,plate2
+QU380145,BIOweekly,Seawater,Run1,1.2,2020-10-14,2020-01-14,2020,10,14,QU38,#REF!,#REF!,1,1000,44118.39502,,0.465729167,,,Kristin,,1,,,plate2
+QU380146,BIOweekly,Seawater,Run1,1.2,2020-10-14,2022-01-28,2020,10,14,QU38,#REF!,#REF!,1,1000,44118.3958,,0.465335648,,,Kristin,,1,,,plate2
+QU380147,BIOweekly,Field blank,Run1,1.2,2020-10-19,2021-11-30,2020,10,19,QU38,#REF!,#REF!,NA,1000,44123.38287,,0.423009259,,,Rute Carvalho,,1,,,plate2
+QU380148,BIOweekly,Seawater,Run1,1.2,2020-10-19,2020-01-14,2020,10,19,QU38,#REF!,#REF!,1,1000,44123.38333,,0.424525463,,,Kristin,,1,,,plate2
+QU380149,BIOweekly,Seawater,Run1,1.2,2020-10-19,2021-12-03,2020,10,19,QU38,#REF!,#REF!,1,1000,44123.38433,,0.42505787,,,Rute/Kristin,2h incubation without rotisserie,1,,,plate2
+QU380150,BIOweekly,Seawater,Run1,1.2,2020-10-19,2021-12-03,2020,10,19,QU38,#REF!,#REF!,1,1000,44123.38516,,0.423530093,,,Rute/Kristin,2h incubation without rotisserie,1,,,plate2
+QU380151,BIOweekly,Field blank,Run1,1.2,2020-10-26,2022-03-21,2020,10,26,QU38,#REF!,#REF!,NA,1000,44130.39543,,0.424976852,,,Carolyn,,1,,,plate2
+QU380152,BIOweekly,Seawater,Run1,1.2,2020-10-26,2022-03-21,2020,10,26,QU38,#REF!,#REF!,1,1000,44130.3959,,0.429386574,,,Carolyn,,1,,,plate2
+QU380153,BIOweekly,Seawater,Run1,1.2,2020-10-26,2020-01-14,2020,10,26,QU38,#REF!,#REF!,1,1000,44130.39742,,0.432453704,,,Kristin,,1,,,plate2
+QU380154,BIOweekly,Seawater,Run1,1.2,2020-10-26,2021-12-03,2020,10,26,QU38,#REF!,#REF!,1,1000,44130.3985,,0.425081019,,,Rute/Kristin,2h incubation without rotisserie,1,,,plate2
+QU380227,BIOweekly,Field blank,Run1,1.2,2021-04-05,2022-03-11,2021,4,5,QU38,#REF!,#REF!,NA,1000,44291.42014,,0.478472222,,,Kristin,,2,,,plate2
+QU380228,BIOweekly,Seawater,Run1,1.2,2021-04-05,2022-06-03,2021,4,5,QU38,#REF!,#REF!,1,1000,44291.42014,,0.479166667,,,Rosie Savage,"clogged, required extra spins",2,,,plate2
+QU380229,BIOweekly,Seawater,Run1,1.2,2021-04-05,2022-06-03,2021,4,5,QU38,#REF!,#REF!,1,1000,44291.42153,,0.479166667,,,Rosie Savage,,2,,,plate2
+QU380230,BIOweekly,Seawater,Run1,1.2,2021-04-05,2022-03-11,2021,4,5,QU38,#REF!,#REF!,1,1000,44291.42222,,0.479861111,,,Kristin,,2,,,plate2
+QU380231,BIOweekly,Field blank,Run1,1.2,2021-04-12,2022-03-11,2021,4,12,QU38,#REF!,#REF!,NA,1000,44298.40903,,0.46875,,,Kristin,,2,,,plate2
+QU380232,BIOweekly,Seawater,Run1,1.2,2021-04-12,2022-06-03,2021,4,12,QU38,#REF!,#REF!,1,1000,44298.40903,,0.472222222,,,Rosie Savage,"clogged, required extra spins",2,,,plate2
+QU380233,BIOweekly,Seawater,Run1,1.2,2021-04-12,2022-06-03,2021,4,12,QU38,#REF!,#REF!,1,1000,44298.41042,,0.475694444,,,Rosie Savage,"clogged, required extra spins",2,,,plate2
+QU380234,BIOweekly,Seawater,Run1,1.2,2021-04-12,2022-06-03,2021,4,12,QU38,#REF!,#REF!,1,1000,44298.41111,,0.470138889,,,Rosie Savage,"clogged, required extra spins",2,,,plate2
+QU380235,BIOweekly,Seawater,Run1,1.2,2021-04-19,2022-03-11,2021,4,19,QU38,#REF!,#REF!,1,1000,44305.41389,,0.480555556,,,Kristin,,2,,,plate2
+QU380236,BIOweekly,Seawater,Run1,1.2,2021-04-19,2022-06-03,2021,4,19,QU38,#REF!,#REF!,1,1000,44305.41389,,0.485416667,,,Rosie Savage,"clogged, required extra spins",2,,,plate2
+QU380237,BIOweekly,Seawater,Run1,1.2,2021-04-19,2022-02-10,2021,4,19,QU38,#REF!,#REF!,1,1000,44305.41389,,0.484027778,,,Kristin,,3,,,plate2
+QU380238,BIOweekly,Seawater,Run1,1.2,2021-04-19,2022-03-11,2021,4,19,QU38,#REF!,#REF!,1,1000,44305.41806,,0.484027778,,,Kristin,,3,,,plate2
+QU380239,BIOweekly,Field blank,Run1,1.2,2021-04-26,2022-06-03,2021,4,26,QU38,#REF!,#REF!,NA,1000,44312.41597,,0.504861111,,,Rosie Savage,,3,,,plate2
+QU380240,BIOweekly,Seawater,Run1,1.2,2021-04-26,2022-04-12,2021,4,26,QU38,#REF!,#REF!,1,1000,44312.41667,,0.508333333,,,Carly,,3,,,plate2
+QU380241,BIOweekly,Seawater,Run1,1.2,2021-04-26,2022-06-03,2021,4,26,QU38,#REF!,#REF!,1,1000,44312.41806,,0.509722222,,,Rosie Savage,"clogged, required extra spins",3,,,plate2
+QU380242,BIOweekly,Seawater,Run1,1.2,2021-04-26,2022-03-11,2021,4,26,QU38,#REF!,#REF!,1,1000,44312.41875,,0.50625,,,Kristin,,3,,,plate2
+QU380276,BIOweekly,Seawater,Run1,1.2,2021-06-28,2022-05-09,2021,6,28,QU38,#REF!,#REF!,1,1000,44375.38333,,0.430555556,,,Rute,,3,,,plate2
+QU380277,BIOweekly,Seawater,Run1,1.2,2021-06-28,2022-04-19,2021,6,28,QU38,#REF!,#REF!,1,1000,44375.38403,,0.427777778,,,Carly,,3,,,plate2
+QU380278,BIOweekly,Field blank,Run1,1.2,2021-07-06,2022-04-19,2021,7,6,QU38,#REF!,#REF!,NA,1000,44383.38681,,0.435416667,,,Carly,,3,,,plate2
+QU380279,BIOweekly,Seawater,Run1,1.2,2021-07-06,2022-02-18,2021,7,6,QU38,#REF!,#REF!,1,1000,44383.38681,,0.438888889,,,Kristin,,3,,,plate2
+QU380280,BIOweekly,Seawater,Run1,1.2,2021-07-06,2022-02-18,2021,7,6,QU38,#REF!,#REF!,1,1000,44383.38889,,0.438888889,,,Kristin,,3,,,plate2
+QU380281,BIOweekly,Seawater,Run1,1.2,2021-07-06,2022-02-18,2021,7,6,QU38,#REF!,#REF!,1,1000,44383.39028,,0.438888889,,,Kristin,Extra spin on column,3,,,plate2
+QU380282,BIOweekly,Field blank,Run1,1.2,2021-07-12,2022-02-18,2021,7,12,QU38,#REF!,#REF!,NA,1000,44389.38611,,0.45,,,Kristin,Extra spin on column,3,,,plate2
+QU380283,BIOweekly,Seawater,Run1,1.2,2021-07-12,2022-03-02,2021,7,12,QU38,#REF!,#REF!,1,1000,44389.38681,,0.45,,,Kristin,,3,,,plate2
+QU380284,BIOweekly,Seawater,Run1,1.2,2021-07-12,2022-02-18,2021,7,12,QU38,#REF!,#REF!,1,1000,44389.38819,,0.452083333,,,Kristin,,3,,,plate2
+QU380285,BIOweekly,Seawater,Run1,1.2,2021-07-12,2022-05-09,2021,7,12,QU38,#REF!,#REF!,1,1000,44389.38889,,0.449305556,,,Rute,,3,,,plate2
+QU380286,BIOweekly,Field blank,Run1,1.2,2021-07-19,2022-02-18,2021,7,19,QU38,#REF!,#REF!,NA,1000,44396.38819,,0.439583333,,,Kristin,,3,,,plate2
+QU380288,BIOWEEKLY,Seawater,Run1,1.2,2021-07-19,2022-05-09,2021,7,19,QU38,#REF!,#REF!,1,1000,44396.38889,,0.440972222,,,Rute,,3,,,plate2
+QU380289,BIOWEEKLY,Seawater,Run1,1.2,2021-07-19,2022-02-18,2021,7,19,QU38,#REF!,#REF!,1,1000,44396.38958,,0.447916667,,,Kristin,,3,,,plate2
+QU380290,BIOWEEKLY,Field blank,Run1,1.2,2021-07-26,2022-02-18,2021,7,26,QU38,#REF!,#REF!,NA,1100,44403.41944,,0.489583333,,,Kristin,,3,,,plate2
+QU380291,BIOWEEKLY,Seawater,Run1,1.2,2021-07-26,2022-05-09,2021,7,26,QU38,#REF!,#REF!,1,1000,44403.41944,,0.50625,,,Rute,,3,,,plate2
+QU380292,BIOWEEKLY,Seawater,Run1,1.2,2021-07-26,2022-02-18,2021,7,26,QU38,#REF!,#REF!,1,1000,44403.42083,,0.538194444,,,Kristin,,3,,,plate2
+QU380293,BIOWEEKLY,Seawater,Run1,1.2,2021-07-26,2022-02-18,2021,7,26,QU38,#REF!,#REF!,1,1000,44403.42153,,0.496527778,,,Kristin,,3,,,plate2
+QU380294,BIOWEEKLY,Field blank,Run1,1.2,2021-08-03,2022-02-18,2021,8,3,QU38,#REF!,#REF!,NA,1000,44411.37569,,0.408333333,,,Kristin,,3,,,plate2
+QU380295,BIOWEEKLY,Seawater,Run1,1.2,2021-08-03,2022-02-18,2021,8,3,QU38,#REF!,#REF!,1,1000,44411.37569,,0.41875,,,Kristin,Extra spin on column,3,,,plate2
+QU380296,BIOWEEKLY,Seawater,Run1,1.2,2021-08-03,2022-05-09,2021,8,3,QU38,#REF!,#REF!,1,1000,44411.37708,,0.415972222,,,Rute,,3,,,plate2
+QU380297,BIOWEEKLY,Seawater,Run1,1.2,2021-08-03,2022-02-18,2021,8,3,QU38,#REF!,#REF!,1,1000,44411.37778,,0.413888889,,,Kristin,Extra spin on column,3,,,plate2
+QU380298,BIOWEEKLY,Field blank,Run1,1.2,2021-08-09,2022-05-09,2021,8,9,QU38,#REF!,#REF!,NA,1000,44417.37431,,0.411111111,,,Rute,,3,,,plate2
+QU380299,BIOWEEKLY,Seawater,Run1,1.2,2021-08-09,2022-02-18,2021,8,9,QU38,#REF!,#REF!,1,1000,44417.37569,,0.415972222,,,Kristin,,3,,,plate2
+QU380300,BIOWEEKLY,Seawater,Run1,1.2,2021-08-09,2022-02-14,2021,8,9,QU38,#REF!,#REF!,1,1000,44417.37708,,0.415277778,,,Rosie Savage,,3,4.73,,plate2
+QU380301,BIOWEEKLY,Seawater,Run1,1.2,2021-08-09,2022-02-10,2021,8,9,QU38,#REF!,#REF!,1,1000,44417.37778,,0.415277778,,,Kristin,,3,,,plate2
+QU380302,BIOWEEKLY,Field blank,Run1,1.2,2021-08-16,2022-02-10,2021,8,16,QU38,#REF!,#REF!,NA,1000,44424.37431,,0.426388889,,,Kristin,"filter clogged, extra spins required",3,,,plate2
+QU380303,BIOWEEKLY,Seawater,Run1,1.2,2021-08-16,2022-02-10,2021,8,16,QU38,#REF!,#REF!,1,1000,44424.37431,,0.433333333,,,Kristin,"filter clogged, extra spins required, max speed required 3 additional times",3,,,plate2
+QU380304,BIOWEEKLY,Seawater,Run1,1.2,2021-08-16,2022-02-10,2021,8,16,QU38,#REF!,#REF!,1,1000,44424.37569,,0.442361111,,,Kristin,"filter clogged, extra spins required, max speed required 1 time",3,,,plate2
+QU380305,BIOWEEKLY,Seawater,Run1,1.2,2021-08-16,2022-02-10,2021,8,16,QU38,#REF!,#REF!,1,1000,44424.37639,,0.435416667,,,Kristin,,3,,,plate2
+QU380306,BIOWEEKLY,Field blank,Run1,1.2,2021-08-23,2022-04-12,2021,8,23,QU38,#REF!,#REF!,NA,1000,44431.39931,,0.459027778,,,Carly,,3,,,plate2
+QU380307,BIOWEEKLY,Seawater,Run1,1.2,2021-08-23,2022-02-10,2021,8,23,QU38,#REF!,#REF!,1,1000,44431.40208,,0.461805556,,,Kristin,,3,,,plate2
+QU380308,BIOWEEKLY,Seawater,Run1,1.2,2021-08-23,2022-02-18,2021,8,23,QU38,#REF!,#REF!,1,1000,44431.40347,,0.463888889,,,Kristin,,3,,,plate2
+QU380309,BIOWEEKLY,Seawater,Run1,1.2,2021-08-23,2022-02-18,2021,8,23,QU38,#REF!,#REF!,1,1100,44431.40417,,0.467361111,,,Kristin,,3,,,plate2
+QU380310,BIOWEEKLY,Field blank,Run1,1.2,2021-08-30,2022-02-10,2021,8,30,QU38,#REF!,#REF!,NA,1000,44438.37986,,0.927083333,,fitration time must be wrong,Kristin,"filter clogged, extra spins required, max speed required 1 time",3,,,plate2
+QU380311,BIOWEEKLY,Seawater,Run1,1.2,2021-08-30,2022-02-10,2021,8,30,QU38,#REF!,#REF!,1,1000,44438.37986,,0.935416667,,fitration time must be wrong,Kristin,"filter clogged, extra spins required",3,,,plate2
+QU380312,BIOWEEKLY,Seawater,Run1,1.2,2021-08-30,2022-02-14,2021,8,30,QU38,#REF!,#REF!,1,1000,44438.38194,,0.934027778,,fitration time must be wrong,Rosie Savage,,3,12.4,,plate2
+QU380313,BIOWEEKLY,Seawater,Run1,1.2,2021-08-30,2022-02-14,2021,8,30,QU38,#REF!,#REF!,1,1000,44438.38333,,0.929166667,,fitration time must be wrong,Rosie Savage,,3,1.85,,plate2
+QU380314,BIOWEEKLY,Field blank,Run1,1.2,2021-09-07,2022-02-10,2021,9,7,QU38,#REF!,#REF!,NA,1000,44446.39444,,,,,Kristin,,3,,,plate2
+QU380315,BIOWEEKLY,Seawater,Run1,1.2,2021-09-07,2022-02-10,2021,9,7,QU38,#REF!,#REF!,1,1000,44446.39444,,0.473611111,,Minor leak while filtering.  Volume may not be accurate. ,Kristin,,3,,,plate2
+QU380316,BIOWEEKLY,Seawater,Run1,1.2,2021-09-07,2022-02-14,2021,9,7,QU38,#REF!,#REF!,1,1000,44446.39653,,0.477083333,,,Rosie Savage,,3,2.42,,plate2
+QU380317,BIOWEEKLY,Seawater,Run1,1.2,2021-09-07,2022-04-12,2021,9,7,QU38,#REF!,#REF!,1,1000,44446.39722,,0.477777778,,,Carly,,3,,,plate2
+QU380318,BIOWEEKLY,Field blank,Run1,1.2,2021-09-13,2022-02-10,2021,9,13,QU38,#REF!,#REF!,NA,1000,44452.38958,,,,,Kristin,,3,,,plate2
+QU380319,BIOWEEKLY,Seawater,Run1,1.2,2021-09-13,2022-02-10,2021,9,13,QU38,#REF!,#REF!,1,1000,44452.38958,,0.477777778,,,Kristin,,3,,,plate2
+QU380320,BIOWEEKLY,Seawater,Run1,1.2,2021-09-13,2022-02-10,2021,9,13,QU38,#REF!,#REF!,1,1000,44452.39097,,0.479166667,,,Kristin,"filter clogged, extra spins required, max speed required 1 time",4,,,plate2
+QU380321,BIOWEEKLY,Seawater,Run1,1.2,2021-09-13,2022-02-10,2021,9,13,QU38,#REF!,#REF!,1,1000,44452.39236,,0.479861111,,fitration time must be wrong,Kristin,"filter clogged, extra spins required",4,,,plate2
+QU380322,BIOWEEKLY,Field blank,Run1,1.2,2021-09-27,2022-05-13,2021,9,27,QU38,#REF!,#REF!,NA,1000,44466.40903,,0.967361111,,fitration time must be wrong,Rosie Savage,,4,,,plate2
+QU380323,BIOWEEKLY,Seawater,Run1,1.2,2021-09-27,2022-02-14,2021,9,27,QU38,#REF!,#REF!,1,1000,44466.40903,,0.979861111,,fitration time must be wrong,Rosie Savage,,4,14.5,,plate2
+QU380324,BIOWEEKLY,Seawater,Run1,1.2,2021-09-27,2022-05-13,2021,9,27,QU38,#REF!,#REF!,1,1000,44466.41042,,0.974305556,,fitration time must be wrong,Rosie Savage,,4,,,plate2
+QU380325,BIOWEEKLY,Seawater,Run1,1.2,2021-09-27,2022-02-10,2021,9,27,QU38,#REF!,#REF!,1,1000,44466.41181,,0.979166667,,fitration time must be wrong,Kristin,"filter clogged, extra spins required",4,,,plate2
+QU380326,BIOWEEKLY,Field blank,Run1,1.2,2021-10-05,2021-12-03,2021,10,5,QU38,2.81,Ebb,NA,1000,44474.37153,,0.436111111,,,Rute/Kristin,2h incubation without rotisserie,4,,,plate2
+QU380327,BIOWEEKLY,Seawater,Run1,1.2,2021-10-05,2021-12-01,2021,10,5,QU38,2.81,Ebb,1,1000,44474.37222,,0.440972222,,,Rute/Sue,,4,,,plate2
+QU380328,BIOWEEKLY,Seawater,Run1,1.2,2021-10-05,2021-12-01,2021,10,5,QU38,2.81,Ebb,1,1000,44474.37292,,0.440277778,,,Rute/Sue,,4,,,plate2
+QU380329,BIOWEEKLY,Seawater,Run1,1.2,2021-10-05,2020-01-14,2021,10,5,QU38,2.81,Ebb,1,1000,44474.37361,,0.436111111,,,Kristin,"sample clogged filter, required max speed for 4 minutes",4,,,plate2
+QU380330,BIOWEEKLY,Field blank,Run1,1.2,2021-10-13,2021-11-30,2021,10,13,QU38,2.54,Flood,NA,1000,44482.4,,0.470833333,,,Rute Carvalho,,4,,,plate2
+QU380331,BIOWEEKLY,Seawater,Run1,1.2,2021-10-13,2021-11-30,2021,10,13,QU38,2.54,Flood,1,1000,44482.4,,0.475694444,,,Rute Carvalho,,4,,,plate2
+QU380332,BIOWEEKLY,Seawater,Run1,1.2,2021-10-13,2021-11-30,2021,10,13,QU38,2.54,Flood,1,1000,44482.40139,,0.473611111,,,Rute Carvalho,,4,,,plate2
+QU380333,BIOWEEKLY,Seawater,Run1,1.2,2021-10-13,2021-11-30,2021,10,13,QU38,2.54,Flood,1,1000,44482.40278,,0.476388889,,,Carolyn Prentice,,4,,,plate2
+QU380334,BIOWEEKLY,Field blank,Run1,1.2,2021-10-18,2021-12-01,2021,10,18,QU38,2.31,Ebb,NA,1000,44487.39583,,0.445138889,,,Rute/Sue,,4,,,plate2
+QU380335,BIOWEEKLY,Seawater,Run1,1.2,2021-10-18,2021-12-01,2021,10,18,QU38,2.31,Ebb,1,1000,44487.39722,,0.445833333,,,Rute/Sue,,4,,,plate2
+QU380336,BIOWEEKLY,Seawater,Run1,1.2,2021-10-18,2021-11-30,2021,10,18,QU38,2.31,Ebb,1,1000,44487.39861,,0.451388889,,,Carolyn Prentice,,4,,,plate2
+QU380337,BIOWEEKLY,Seawater,Run1,1.2,2021-10-18,2021-12-01,2021,10,18,QU38,2.31,Ebb,1,1000,44487.4,,0.452083333,,,Rute/Sue,,4,,,plate2
+QU380338,BIOWEEKLY,Field blank,Run1,1.2,2021-10-25,2021-12-01,2021,10,25,QU38,3.75,Flood,NA,1000,44496.42014,,0.475694444,,,Rute/Sue,,4,,,plate2
+QU380339,BIOWEEKLY,Seawater,Run1,1.2,2021-10-25,2021-12-01,2021,10,25,QU38,3.75,Flood,1,1000,44496.42014,,0.479166667,,,Rute/Sue,,4,,,plate2
+NEG-PCR3,,PCR blank,Run1,1.3,,,,,,,,,,,,,,,,,,,,,
+QU380340,BIOWEEKLY,Seawater,Run1,1.3,2021-10-25,2021-12-01,2021,10,25,Other,3.75,Flood,1,1000,44496.42083,,0.479861111,,,Rute/Sue,,4,,,plate2
+QU380341,BIOWEEKLY,Seawater,Run1,1.3,2021-10-25,2021-11-30,2021,10,25,QU38,3.75,Flood,1,1000,44496.42153,,0.478472222,,,Carolyn Prentice,,4,,,plate2
+bio1-QU38XN005,,Extraction blank,Run1,1.3,,2022-01-21,,,,,,,,,,,,,,,,,,,
+bio1-QU38XN006,,Extraction blank,Run1,1.3,,2022-01-28,,,,,,,,,,,,,,,,,,,
+bio1-QU38XN007,,Extraction blank,Run1,1.3,,2022-02-10,,,,,,,,,,,,,,,,,,,
+bio1-QU38XN009,,Extraction blank,Run1,1.3,,2022-02-18,,,,,,,,,,,,,,,,,,,
+bio1-QU38XN011,,Extraction blank,Run1,1.3,,2022-03-11,,,,,,,,,,,,,,,,,,,
+bio1-QU38XN017,,Extraction blank,Run1,1.3,,2022-05-13,,,,,,,,,,,,,,,,,,,
+NEG-PCR4,,PCR blank,Run2,2.1,,,,,,,,,,,,,,,,,,,,,
+QU380155,BIOweekly,Field blank,Run2,2.1,2020-11-02,2022-01-28,2020,11,2,QU38,#REF!,#REF!,NA,1000,44137.39748,,0.444479167,,,Kristin,Needed 2 extra spins on column (last one max speed),1,,,plate3
+QU380156,BIOweekly,Seawater,Run2,2.1,2020-11-02,2022-01-21,2020,11,2,QU38,#REF!,#REF!,1,1000,44137.39807,,0.447685185,,,Kristin,,2,,,plate3
+QU380157,BIOweekly,Seawater,Run2,2.1,2020-11-02,2022-01-28,2020,11,2,QU38,#REF!,#REF!,1,1000,44137.39896,,0.453113426,,,Kristin,,2,,,plate3
+QU380158,BIOweekly,Seawater,Run2,2.1,2020-11-02,2021-12-03,2020,11,2,QU38,#REF!,#REF!,1,1000,44137.39943,,0.449351852,,,Rute/Kristin,2h incubation without rotisserie,2,,,plate3
+QU380159,BIOweekly,Field blank,Run2,2.1,2020-11-09,2021-11-30,2020,11,9,QU38,#REF!,#REF!,1,1000,44144.40727,,0.468113426,,,Rute Carvalho,,2,,,plate3
+QU380160,BIOweekly,Seawater,Run2,2.1,2020-11-09,2022-01-21,2020,11,9,QU38,#REF!,#REF!,1,1000,44144.4072,,0.469872685,,,Kristin,,2,,,plate3
+QU380161,BIOweekly,Seawater,Run2,2.1,2020-11-09,2020-01-14,2020,11,9,QU38,#REF!,#REF!,1,1000,44144.40897,,0.470983796,,,Kristin,,2,,,plate3
+QU380162,BIOweekly,Seawater,Run2,2.1,2020-11-09,2022-03-21,2020,11,9,QU38,#REF!,#REF!,1,1000,44144.40933,,0.472013889,,,Carolyn,,2,,,plate3
+QU380163,BIOweekly,Field blank,Run2,2.1,2020-11-16,2021-12-03,2020,11,16,QU38,#REF!,#REF!,NA,1000,44151.40184,,0.459814815,,,Rute/Kristin,2h incubation without rotisserie,2,,,plate3
+QU380164,BIOweekly,Seawater,Run2,2.1,2020-11-16,2021-12-01,2020,11,16,QU38,#REF!,#REF!,1,1000,44151.40112,,0.464525463,,,Rute/Sue,,2,,,plate3
+QU380165,BIOweekly,Seawater,Run2,2.1,2020-11-16,2022-01-21,2020,11,16,QU38,#REF!,#REF!,1,1000,44151.4023,,0.46619213,,,Kristin,,2,,,plate3
+QU380166,BIOweekly,Seawater,Run2,2.1,2020-11-16,2021-11-30,2020,11,16,QU38,#REF!,#REF!,1,1000,44151.40355,,0.464537037,,,Rute Carvalho,,2,,,plate3
+QU380167,BIOweekly,Field blank,Run2,2.1,2020-11-23,2022-01-21,2020,11,23,QU38,#REF!,#REF!,NA,1000,44158.41569,,0.50744213,,,Kristin,,2,,,plate3
+QU380168,BIOweekly,Seawater,Run2,2.1,2020-11-23,2022-01-21,2020,11,23,QU38,#REF!,#REF!,1,1000,44158.41808,,0.507048611,,,Kristin,,2,,,plate3
+QU380169,BIOweekly,Seawater,Run2,2.1,2020-11-23,2022-01-28,2020,11,23,QU38,#REF!,#REF!,1,1000,44158.41925,,0.507210648,,,Kristin,Needed 2 extra spins on column (last one max speed),2,,,plate3
+QU380170,BIOweekly,Seawater,Run2,2.1,2020-11-23,2022-01-21,2020,11,23,QU38,#REF!,#REF!,1,1000,44158.41949,,0.507604167,,,Kristin,,2,,,plate3
+QU380171,BIOweekly,Field blank,Run2,2.1,2020-11-30,2021-12-03,2020,11,30,QU38,#REF!,#REF!,NA,1000,44165.4,,0.471527778,,,Rute/Kristin,2mL tube cracked in the centrifuge with Sterivex. 2h incubation without rotisserie,2,,,plate3
+QU380172,BIOweekly,Seawater,Run2,2.1,2020-11-30,2022-01-21,2020,11,30,QU38,#REF!,#REF!,1,1000,44165.40069,,0.477777778,,,Kristin,,2,,,plate3
+QU380173,BIOweekly,Seawater,Run2,2.1,2020-11-30,2021-12-03,2020,11,30,QU38,#REF!,#REF!,1,1000,44165.40139,,0.475694444,,,Rute/Kristin,,2,,,plate3
+QU380174,BIOweekly,Seawater,Run2,2.1,2020-11-30,2021-12-03,2020,11,30,QU38,#REF!,#REF!,1,1000,44165.40278,,0.472916667,,,Rute/Kristin,tube cracked during the first centrifuge. 2h incubation without rotisserie,2,,,plate3
+QU380175,BIOweekly,Field blank,Run2,2.1,2021-01-04,2022-03-11,2021,1,4,QU38,#REF!,#REF!,NA,1000,44200.44692,,0.525243056,,Added water after returning from field,Carolyn,,2,,,plate3
+QU380176,BIOweekly,Seawater,Run2,2.1,2021-01-04,2022-03-11,2021,1,4,QU38,#REF!,#REF!,1,1000,44200.44791,,0.528148148,,,Carolyn,,2,,,plate3
+QU380177,BIOweekly,Seawater,Run2,2.1,2021-01-04,2022-03-11,2021,1,4,QU38,#REF!,#REF!,1,1000,44200.4481,,0.528969907,,,Carolyn,,2,,,plate3
+QU380178,BIOweekly,Seawater,Run2,2.1,2021-01-04,2022-03-02,2021,1,4,QU38,#REF!,#REF!,1,1000,44200.44891,,0.527002315,,,Kristin,,2,,,plate3
+QU380179,BIOweekly,Field blank,Run2,2.1,2021-01-11,2022-07-21,2021,1,11,QU38,#REF!,#REF!,NA,1000,44207.40297,,0.474236111,,,Rosie Savage,clogged,2,,,plate3
+QU380180,BIOweekly,Seawater,Run2,2.1,2021-01-11,2022-03-02,2021,1,11,QU38,#REF!,#REF!,1,1000,44207.40374,,0.47599537,,,Kristin,,2,,,plate3
+QU380181,BIOweekly,Seawater,Run2,2.1,2021-01-11,2022-03-11,2021,1,11,QU38,#REF!,#REF!,1,1000,44207.40435,,0.476400463,,,Carolyn,,2,,,plate3
+QU380182,BIOweekly,Seawater,Run2,2.1,2021-01-11,2022-03-02,2021,1,11,QU38,#REF!,#REF!,1,1000,44207.40507,,0.474641204,,,Kristin,,2,,,plate3
+QU380183,BIOweekly,Field blank,Run2,2.1,2021-01-18,2022-05-18,2021,1,18,QU38,#REF!,#REF!,NA,1000,44214.40506,,0.510555556,,,Rosie Savage,,2,,,plate3
+QU380184,BIOweekly,Seawater,Run2,2.1,2021-01-18,2022-05-18,2021,1,18,QU38,#REF!,#REF!,1,1000,44214.40586,,0.516319444,,,Rosie Savage,,2,,,plate3
+QU380185,BIOweekly,Seawater,Run2,2.1,2021-01-18,2022-05-18,2021,1,18,QU38,#REF!,#REF!,1,1000,44214.40751,,0.51443287,,,Rosie Savage,,2,,,plate3
+QU380186,BIOweekly,Seawater,Run2,2.1,2021-01-18,2022-05-18,2021,1,18,QU38,#REF!,#REF!,1,1000,44214.40825,,0.505706019,,,Rosie Savage,,2,,,plate3
+QU380187,BIOweekly,Field blank,Run2,2.1,2021-01-25,2022-03-02,2021,1,25,QU38,#REF!,#REF!,NA,1000,44221.41419,,0.482824074,,,Kristin,,2,,,plate3
+QU380188,BIOweekly,Seawater,Run2,2.1,2021-01-25,2022-03-02,2021,1,25,QU38,#REF!,#REF!,1,1000,44221.41433,,0.48568287,,,Kristin,,2,,,plate3
+QU380189,BIOweekly,Seawater,Run2,2.1,2021-01-25,2022-03-02,2021,1,25,QU38,#REF!,#REF!,1,1000,44221.41588,,0.486805556,,,Kristin,,2,,,plate3
+QU380190,BIOweekly,Seawater,Run2,2.1,2021-01-25,2022-03-11,2021,1,25,QU38,#REF!,#REF!,1,1000,44221.4165,,0.488553241,,,Carolyn,,2,,,plate3
+QU380191,BIOweekly,Field blank,Run2,2.1,2021-02-01,2022-03-21,2021,2,1,QU38,#REF!,#REF!,NA,1000,44228.38963,,0.445972222,,,Carolyn,,2,,,plate3
+QU380192,BIOweekly,Seawater,Run2,2.1,2021-02-01,2022-03-02,2021,2,1,QU38,#REF!,#REF!,1,1000,44228.38958,,0.449247685,,,Kristin,,2,,,plate3
+QU380193,BIOweekly,Seawater,Run2,2.1,2021-02-01,2022-03-02,2021,2,1,QU38,#REF!,#REF!,1,1000,44229.39046,,0.448368056,,,Kristin,,2,,,plate3
+QU380194,BIOweekly,Seawater,Run2,2.1,2021-02-01,2022-03-02,2021,2,1,QU38,#REF!,#REF!,1,1000,44228.39235,,0.446990741,,,Kristin,Extra spin on column,2,,,plate3
+QU380195,BIOweekly,Seawater,Run2,2.1,2021-02-08,2022-03-02,2021,2,8,QU38,#REF!,#REF!,1,1000,44235.40763,,0.479386574,,,Kristin,,2,,,plate3
+QU380196,BIOweekly,Seawater,Run2,2.1,2021-02-08,2022-03-02,2021,2,8,QU38,#REF!,#REF!,1,1000,44235.40598,,0.487939815,,,Kristin,Extra spin on column,2,,,plate3
+QU380197,BIOweekly,Seawater,Run2,2.1,2021-02-08,2022-04-19,2021,2,8,QU38,#REF!,#REF!,1,1000,44235.40683,,0.486863426,,,Carly,,2,,,plate3
+QU380198,BIOweekly,Field blank,Run2,2.1,2021-02-08,2022-04-12,2021,2,8,QU38,#REF!,#REF!,NA,1000,44235.4056,,0.479375,,,Carly,,2,,,plate3
+QU380199,BIOweekly,Field blank,Run2,2.1,2021-02-16,2022-07-21,2021,2,16,QU38,#REF!,#REF!,NA,1000,44243.40742,,0.473333333,,,Rosie Savage,,2,,,plate3
+QU380200,BIOweekly,Seawater,Run2,2.1,2021-02-16,2022-03-11,2021,2,16,QU38,#REF!,#REF!,1,1000,44243.40777,,0.476145833,,,Carolyn,,2,,,plate3
+QU380201,BIOweekly,Seawater,Run2,2.1,2021-02-16,2022-03-11,2021,2,16,QU38,#REF!,#REF!,1,1000,44243.40867,,0.477349537,,,Carolyn,,2,,,plate3
+QU380202,BIOweekly,Seawater,Run2,2.1,2021-02-16,2022-07-21,2021,2,16,QU38,#REF!,#REF!,1,1000,44243.41017,,0.475381944,,,Rosie Savage,,2,,,plate3
+QU380203,BIOweekly,Field blank,Run2,2.1,2021-02-22,2022-03-02,2021,2,22,QU38,#REF!,#REF!,NA,1000,44249.40556,,0.469444444,,,Kristin,,2,,,plate3
+QU380204,BIOweekly,Seawater,Run2,2.1,2021-02-22,2022-03-11,2021,2,22,QU38,#REF!,#REF!,1,1000,44249.40556,,0.471527778,,,Carolyn,,2,,,plate3
+QU380205,BIOweekly,Seawater,Run2,2.1,2021-02-22,2022-03-02,2021,2,22,QU38,#REF!,#REF!,1,1000,44249.40625,,0.475,,,Kristin,,2,,,plate3
+QU380206,BIOweekly,Seawater,Run2,2.1,2021-02-22,2022-03-02,2021,2,22,QU38,#REF!,#REF!,1,1000,44249.40764,,0.472916667,,,Kristin,Extra spin on column,2,,,plate3
+QU380207,BIOweekly,Field blank,Run2,2.1,2021-03-01,2022-04-19,2021,3,1,QU38,#REF!,#REF!,NA,1040,44256.40625,,0.475694444,,Volume is 1040.  than that it’s all good. eDNA (c),Carly,,2,,,plate3
+QU380208,BIOweekly,Seawater,Run2,2.1,2021-03-01,2022-04-19,2021,3,1,QU38,#REF!,#REF!,1,1000,44256.40625,,0.475694444,,All good,Carly,,2,,,plate3
+QU380209,BIOweekly,Seawater,Run2,2.1,2021-03-01,2022-04-19,2021,3,1,QU38,#REF!,#REF!,1,1000,44256.40764,,0.476388889,,The volume is approximate. The filterate spilled. I eyeballed the remaining volume to match the two other eDNA bottles. eDNA,Carly,,2,,,plate3
+QU380210,BIOweekly,Seawater,Run2,2.1,2021-03-01,2022-04-19,2021,3,1,QU38,#REF!,#REF!,1,1000,44257.40903,,0.478472222,,All good,Carly,,2,,,plate3
+QU380211,BIOweekly,Field blank,Run2,2.1,2021-03-08,2022-07-21,2021,3,8,QU38,#REF!,#REF!,NA,1000,44263.43125,,0.503472222,,,Rosie Savage,clogged,2,,,plate3
+QU380212,BIOweekly,Seawater,Run2,2.1,2021-03-08,2022-07-21,2021,3,8,QU38,#REF!,#REF!,1,1000,44263.43125,,0.507638889,,,Rosie Savage,clogged,2,,,plate3
+QU380213,BIOweekly,Seawater,Run2,2.1,2021-03-08,2022-07-21,2021,3,8,QU38,#REF!,#REF!,1,,44263.43194,,,,,Rosie Savage,clogged,2,,,plate3
+QU380214,BIOweekly,Seawater,Run2,2.1,2021-03-08,2022-03-11,2021,3,8,QU38,#REF!,#REF!,1,1000,44263.43264,,0.510416667,,,Carolyn,,2,,,plate3
+QU380215,BIOweekly,Field blank,Run2,2.1,2021-03-15,2022-05-18,2021,3,15,QU38,#REF!,#REF!,NA,1000,44270.41458,,0.488194444,,,Rosie Savage,,2,,,plate3
+QU380216,BIOweekly,Seawater,Run2,2.1,2021-03-15,2022-03-11,2021,3,15,QU38,#REF!,#REF!,1,1000,44270.41458,,0.493055556,,Surface water,Carolyn,,2,,,plate3
+QU380217,BIOweekly,Seawater,Run2,2.1,2021-03-15,2022-07-21,2021,3,15,QU38,#REF!,#REF!,1,1000,44270.41528,,0.497916667,,Surface water,Rosie Savage,,2,,,plate3
+QU380218,BIOweekly,Seawater,Run2,2.1,2021-03-15,2022-03-11,2021,3,15,QU38,#REF!,#REF!,1,1000,44270.41528,,0.490972222,,Surface water ,Carolyn,,2,,,plate3
+QU380219,BIOweekly,Field blank,Run2,2.1,2021-03-22,2022-03-02,2021,3,22,QU38,#REF!,#REF!,NA,1000,44277.42222,,0.482638889,,,Kristin,Extra spin on column,2,,,plate3
+QU380220,BIOweekly,Seawater,Run2,2.1,2021-03-22,2022-07-21,2021,3,22,QU38,#REF!,#REF!,1,1000,44277.42292,,0.481944444,,,Rosie Savage,,2,,,plate3
+QU380221,BIOweekly,Seawater,Run2,2.1,2021-03-22,2022-05-18,2021,3,22,QU38,#REF!,#REF!,1,1000,44277.42431,,0.484722222,,,Rosie Savage,,2,,,plate3
+QU380222,BIOweekly,Seawater,Run2,2.1,2021-03-22,2022-02-18,2021,3,22,QU38,#REF!,#REF!,1,1000,44277.42431,,0.4875,,,Kristin,Extra spin on column,2,,,plate3
+QU380223,BIOweekly,Field blank,Run2,2.1,2021-03-30,2022-03-02,2021,3,30,QU38,#REF!,#REF!,NA,1000,44285.41111,,0.511805556,,,Kristin,,2,,,plate3
+QU380224,BIOweekly,Seawater,Run2,2.1,2021-03-30,2022-03-11,2021,3,30,QU38,#REF!,#REF!,1,1000,44285.41111,,0.516666667,,,Carolyn,,2,,,plate3
+QU380225,BIOweekly,Seawater,Run2,2.1,2021-03-30,2022-03-11,2021,3,30,QU38,#REF!,#REF!,1,1000,44285.41181,,0.516666667,,,Kristin,,2,,,plate3
+QU380226,BIOweekly,Seawater,Run2,2.1,2021-03-30,2022-07-21,2021,3,30,QU38,#REF!,#REF!,1,1000,44285.41319,,0.515972222,,,Rosie Savage,leaked at 2hr incubation ,2,,,plate3
+QU380342,BIOWEEKLY,Field blank,Run2,2.1,2021-11-01,2021-11-30,2021,11,1,QU38,2.04,Flood,NA,1000,44501.40208,,0.446527778,,,Carolyn Prentice,,4,,,plate3
+QU380343,BIOWEEKLY,Seawater,Run2,2.1,2021-11-01,2021-12-01,2021,11,1,QU38,2.04,Flood,1,1000,44501.40347,,0.449305556,,,Rute/Sue,,4,,,plate3
+QU380344,BIOWEEKLY,Seawater,Run2,2.1,2021-11-01,2021-12-01,2021,11,1,QU38,2.04,Flood,1,1000,44501.40347,,0.447916667,,,Rute/Sue,,4,,,plate3
+QU380345,BIOWEEKLY,Seawater,Run2,2.1,2021-11-01,2021-11-30,2021,11,1,QU38,2.04,Flood,1,1000,44501.40347,,0.447916667,,,Carolyn Prentice,,4,,,plate3
+QU380346,BIOWEEKLY,Field blank,Run2,2.1,2021-11-16,2022-04-12,2021,11,16,QU38,2.7,Ebb,NA,1000,44516.40764,,0.452777778,,,Carly,,4,,,plate3
+QU380347,BIOWEEKLY,Seawater,Run2,2.1,2021-11-16,2022-05-18,2021,11,16,QU38,2.7,Ebb,1,1000,44516.40694,,0.452777778,,,Rosie Savage,,4,,,plate3
+QU380348,BIOWEEKLY,Seawater,Run2,2.1,2021-11-16,2022-07-21,2021,11,16,QU38,2.7,Ebb,1,1000,44516.40764,,0.454166667,,,Rosie Savage,,4,,,plate3
+QU380349,BIOWEEKLY,Seawater,Run2,2.1,2021-11-16,2022-07-21,2021,11,16,QU38,2.7,Ebb,1,1000,44516.40833,,0.454166667,,,Rosie Savage,"collection tube broke during centridugation, lysate transferred from 50mL tube to 2mL tube",4,,,plate3
+QU380350,BIOWEEKLY,Field blank,Run2,2.1,2021-11-29,2022-05-18,2021,11,29,QU38,2.92,Flood,NA,1000,44529.38681,,0.447916667,,,Rosie Savage,,4,,,plate3
+QU380351,BIOWEEKLY,Seawater,Run2,2.1,2021-11-29,2022-07-21,2021,11,29,QU38,2.92,Flood,1,1000,44529.38681,,0.452777778,,,Rosie Savage,,4,,,plate3
+QU380352,BIOWEEKLY,Seawater,Run2,2.1,2021-11-29,2022-07-21,2021,11,29,QU38,2.92,Flood,1,1000,44529.3875,,0.452083333,,,Rosie Savage,leaked at 2hr incubation ,4,,,plate3
+QU380353,BIOWEEKLY,Seawater,Run2,2.1,2021-11-29,2022-05-18,2021,11,29,QU38,2.92,Flood,1,1000,44529.38889,,0.449305556,,,Rosie Savage,leaked during second 30 min incubation,4,,,plate3
+QU380354,BIOWEEKLY,Field blank,Run2,2.1,2022-01-05,2022-05-18,2022,1,5,QU38,5.2,Ebb,NA,1000,44566.39792,,0.451388889,,,Rosie Savage,"clogged spin column, required extra spins",4,,,plate3
+QU380355,BIOWEEKLY,Seawater,Run2,2.1,2022-01-05,2022-07-21,2022,1,5,QU38,5.2,Ebb,1,1000,44566.39861,,0.452777778,,,Rosie Savage,,4,,,plate3
+QU380356,BIOWEEKLY,Seawater,Run2,2.1,2022-01-05,2022-05-18,2022,1,5,QU38,5.2,Ebb,1,1000,44566.39931,,0.454861111,,,Rosie Savage,leaked during second 30 min incubation,4,,,plate3
+QU380357,BIOWEEKLY,Seawater,Run2,2.1,2022-01-05,2022-07-21,2022,1,5,QU38,5.2,Ebb,1,1100,44566.4,,0.450694444,,,Rosie Savage,clogged,4,,,plate3
+QU380358,BIOWEEKLY,Field blank,Run2,2.1,2022-01-18,2022-07-21,2022,1,18,QU38,4.5,Ebb,NA,1000,44579.37292,,0.416666667,,,Rosie Savage,,4,,,plate3
+QU380359,BIOWEEKLY,Seawater,Run2,2.1,2022-01-18,2022-07-21,2022,1,18,QU38,4.5,Ebb,1,1000,44579.37361,,0.417361111,,,Rosie Savage,,4,,,plate3
+QU380360,BIOWEEKLY,Seawater,Run2,2.1,2022-01-18,2022-05-18,2022,1,18,QU38,4.5,Ebb,1,1000,44579.37431,,0.425,,,Rosie Savage,,4,,,plate3
+QU380361,BIOWEEKLY,Seawater,Run2,2.1,2022-01-18,2022-07-21,2022,1,18,QU38,4.5,Ebb,1,1000,44579.375,,0.41875,,,Rosie Savage,,4,,,plate3
+QU380362,BIOWEEKLY,Field blank,Run2,2.1,2022-01-31,2022-05-18,2022,1,31,QU38,4.1,Ebb,NA,1000,44592.425,,0.502083333,,,Rosie Savage,,4,,,plate3
+QU380363,BIOWEEKLY,Seawater,Run2,2.1,2022-01-31,2022-07-21,2022,1,31,QU38,4.1,Ebb,1,1000,44592.425,,0.504166667,,,Rosie Savage,clogged,4,,,plate3
+QU380364,BIOWEEKLY,Seawater,Run2,2.1,2022-01-31,2022-04-12,2022,1,31,QU38,4.1,Ebb,1,1000,44592.42639,,0.502777778,,,Carly,,4,,,plate4
+NEG-PCR5,,PCR blank,Run2,2.2,,,,,,,,,,,,,,,,,,,,,
+QU380365,BIOWEEKLY,Seawater,Run2,2.2,2022-01-31,2022-07-21,2022,1,31,QU38,4.1,Ebb,1,1000,44592.42708,,0.502777778,,,Rosie Savage,leaked at 2hr incubation ,4,,,plate4
+QU380366,BIOWEEKLY,Field blank,Run2,2.2,2022-02-15,2023-05-15,2022,2,15,QU38,3.11,Ebb,NA,1000,44607.40486,,0.952083333,,,Wyth,,4,,,plate4
+QU380367,BIOWEEKLY,Seawater,Run2,2.2,2022-02-15,2023-05-15,2022,2,15,QU38,3.11,Ebb,1,1000,44607.40556,,0.954861111,,,Wyth,,4,,,plate4
+QU380368,BIOWEEKLY,Seawater,Run2,2.2,2022-02-15,2023-05-15,2022,2,15,QU38,3.11,Ebb,1,1000,44607.40764,,0.952777778,,,Wyth,,4,,,plate4
+QU380369,BIOWEEKLY,Seawater,Run2,2.2,2022-02-15,2023-05-15,2022,2,15,QU38,3.11,Ebb,1,1000,44607.40833,,0.952777778,,,Wyth,,4,,,plate4
+QU380370,BIOWEEKLY,Field blank,Run2,2.2,2022-02-28,2023-05-10,2022,2,28,QU38,3.8,Ebb,NA,1000,44622.39444,,0.463194444,,,Wyth,,4,,,plate4
+QU380371,BIOWEEKLY,Seawater,Run2,2.2,2022-02-28,2023-05-10,2022,2,28,QU38,3.8,Ebb,1,1000,44622.39514,,0.470833333,,,Wyth,,4,,,plate4
+QU380372,BIOWEEKLY,Seawater,Run2,2.2,2022-02-28,2023-05-15,2022,2,28,QU38,3.8,Ebb,1,1000,44622.39583,,0.486805556,,,Wyth,,4,,,plate4
+QU380373,BIOWEEKLY,Seawater,Run2,2.2,2022-02-28,2023-05-15,2022,2,28,QU38,3.8,Ebb,1,1000,44622.39653,,0.464583333,,,Wyth,,4,,,plate4
+QU380374,BIOWEEKLY,Field blank,Run2,2.2,2022-03-15,2023-05-15,2022,3,15,QU38,3.9,Ebb,NA,,44635.38403,,0.434722222,,,Wyth,,,,,plate4
+QU380375,BIOWEEKLY,Seawater,Run2,2.2,2022-03-15,2023-05-10,2022,3,15,QU38,3.9,,1,,44635.38472,,0.435416667,,,Wyth,,,,,plate4
+QU380376,BIOWEEKLY,Seawater,Run2,2.2,2022-03-15,2023-05-15,2022,3,15,QU38,3.9,,1,,44635.38542,,0.439583333,,,Wyth,,,,,plate4
+QU380377,BIOWEEKLY,Seawater,Run2,2.2,2022-03-15,2023-05-15,2022,3,15,QU38,3.9,,1,,44635.38611,,0.439583333,,,Wyth,,,,,plate4
+QU380378,BIOWEEKLY,Field blank,Run2,2.2,2022-03-28,2023-05-10,2022,3,28,QU38,3.4,Flood,NA,,44648.40208,,0.970138889,,,Wyth,,,,,plate4
+QU380379,BIOWEEKLY,Seawater,Run2,2.2,2022-03-28,2023-05-15,2022,3,28,QU38,3.4,,1,,44648.40208,,0.971527778,,,Wyth,,,,,plate4
+QU380380,BIOWEEKLY,Seawater,Run2,2.2,2022-03-28,2023-05-10,2022,3,28,QU38,3.4,,1,,44648.40417,,0.971527778,,,Wyth,,,,,plate4
+QU380381,BIOWEEKLY,Seawater,Run2,2.2,2022-03-28,2023-05-15,2022,3,28,QU38,3.4,,1,,44648.40556,,0.972916667,,,Wyth,,,,,plate4
+QU380382,BIOWEEKLY,Field blank,Run2,2.2,2022-04-11,2023-05-15,2022,4,11,QU38,3.3,Ebb,NA,,44662.39722,,0.452083333,,,Wyth,,,,,plate4
+QU380383,BIOWEEKLY,Seawater,Run2,2.2,2022-04-11,2023-05-10,2022,4,11,QU38,3.3,,1,,44662.39792,,0.458333333,,,Wyth,,,,,plate4
+QU380384,BIOWEEKLY,Seawater,Run2,2.2,2022-04-11,2023-05-10,2022,4,11,QU38,3.3,,1,,44662.39861,,0.456944444,,,Wyth,,,,,plate4
+QU380385,BIOWEEKLY,Seawater,Run2,2.2,2022-04-11,2023-05-10,2022,4,11,QU38,3.3,,1,,44662.39931,,0.452083333,,,Wyth,,,,,plate4
+QU380386,BIOWEEKLY,Field blank,Run2,2.2,2022-04-25,2023-05-10,2022,4,25,QU38,3.01,Ebb,NA,,44676.38125,,0.4375,,,Wyth,,,,,plate4
+QU380387,BIOWEEKLY,Seawater,Run2,2.2,2022-04-25,2023-05-10,2022,4,25,QU38,3.01,,1,,44676.38194,,0.440277778,,,Wyth,,,,,plate4
+QU380389,BIOWEEKLY,Seawater,Run2,2.2,2022-04-25,2023-05-10,2022,4,25,QU38,3.01,,1,,44676.38264,,0.438194444,,,Wyth,,,,,plate4
+QU380390,BIOWEEKLY,Field blank,Run2,2.2,2022-05-09,2023-05-10,2022,5,9,QU38,3.26,Flood,NA,,44690.39097,,0.440277778,,,Wyth,,,,,plate4
+QU380391,BIOWEEKLY,Seawater,Run2,2.2,2022-05-09,2023-05-10,2022,5,9,QU38,3.26,,1,,44690.39097,,0.441666667,,,Wyth,,,,,plate4
+QU380392,BIOWEEKLY,Seawater,Run2,2.2,2022-05-09,2023-05-01,2022,5,9,QU38,3.26,,1,,44690.39167,,0.443055556,,,Silvio,,,,,plate4
+QU380393,BIOWEEKLY,Seawater,Run2,2.2,2022-05-09,2023-05-01,2022,5,9,QU38,3.26,,1,,44690.39236,,0.441666667,,,Silvio,,,,,plate4
+QU380394,BIOWEEKLY,Field blank,Run2,2.2,2022-05-24,2023-05-08,2022,5,24,QU38,2.5,Ebb,NA,,44705.38125,,0.436111111,,,Silvio,,,,,plate4
+QU380395,BIOWEEKLY,Seawater,Run2,2.2,2022-05-24,2023-05-10,2022,5,24,QU38,2.5,,1,,44705.38194,,0.4375,,,Wyth,,,,,plate4
+QU380396,BIOWEEKLY,Seawater,Run2,2.2,2022-05-24,2023-05-10,2022,5,24,QU38,2.5,,1,,44705.38333,,0.438194444,,,Wyth,,,,,plate4
+QU380397,BIOWEEKLY,Seawater,Run2,2.2,2022-05-24,2023-05-01,2022,5,24,QU38,2.5,,1,,44705.38403,,0.4375,,,Silvio,,,,,plate4
+QU380398,BIOWEEKLY,Field blank,Run2,2.2,2022-06-06,2023-05-08,2022,6,6,QU38,3.42,Flood,NA,,44718.39028,,0.438888889,,,Silvio,,,,,plate4
+QU380399,BIOWEEKLY,Seawater,Run2,2.2,2022-06-06,2023-05-10,2022,6,6,QU38,3.42,Flood,1,,44718.39028,,0.440972222,,,Wyth,,,,,plate4
+QU380400,BIOWEEKLY,Seawater,Run2,2.2,2022-06-06,2023-05-10,2022,6,6,QU38,3.42,Flood,1,,44718.39097,,0.441666667,,,Wyth,,,,,plate4
+QU380401,BIOWEEKLY,Seawater,Run2,2.2,2022-06-06,2023-05-08,2022,6,6,QU38,3.42,Flood,1,,44718.39236,,0.439583333,,,Silvio,,,,,plate4
+QU380402,BIOWEEKLY,Field blank,Run2,2.2,2022-06-20,2023-05-10,2022,6,20,QU38,3.2,Flood,NA,,44732.38403,,0.422222222,,,Wyth,,,,,plate4
+QU380403,BIOWEEKLY,Seawater,Run2,2.2,2022-06-20,2023-05-08,2022,6,20,QU38,3.2,Flood,1,,44732.38403,,0.430555556,,,Silvio,,,,,plate4
+QU380404,BIOWEEKLY,Seawater,Run2,2.2,2022-06-20,2023-05-15,2022,6,20,QU38,3.2,Flood,1,,44732.38472,,0.434027778,,,Wyth,,,,,plate4
+QU380405,BIOWEEKLY,Seawater,Run2,2.2,2022-06-20,2023-05-10,2022,6,20,QU38,3.2,Flood,1,,44732.38542,,0.432638889,,,Wyth,,,,,plate4
+QU380406,BIOWEEKLY,Field blank,Run2,2.2,2022-07-05,2023-05-15,2022,7,5,QU38,3.5,Flood,1,,44747.39028,,0.447916667,,,Wyth,no cap on sterivex,,,,plate4
+QU380407,BIOWEEKLY,Seawater,Run2,2.2,2022-07-05,2023-05-10,2022,7,5,QU38,3.5,Flood,1,,44747.39028,,0.447916667,,,Wyth,,,,,plate4
+QU380408,BIOWEEKLY,Seawater,Run2,2.2,2022-07-05,2023-05-10,2022,7,5,QU38,3.5,Flood,1,,44747.39167,,0.450694444,,,Wyth,,,,,plate4
+QU380409,BIOWEEKLY,Seawater,Run2,2.2,2022-07-05,2023-05-08,2022,7,5,QU38,3.5,Flood,1,,44747.39306,,0.447222222,,,Silvio,,,,,plate4
+QU380410,BIOWEEKLY,Field blank,Run2,2.2,2022-07-18,2023-05-10,2022,7,18,QU38,3.82,Ebb,NA,,44760.38264,,0.423611111,,,Wyth,,,,,plate4
+QU380411,BIOWEEKLY,Seawater,Run2,2.2,2022-07-18,2023-05-01,2022,7,18,QU38,3.82,Ebb,1,,44760.38264,,0.427083333,,,Silvio,,,,,plate4
+QU380412,BIOWEEKLY,Seawater,Run2,2.2,2022-07-18,2023-04-10,2022,7,18,QU38,3.82,Ebb,1,,44760.38333,,0.427083333,,,Silvio/Rute,,,,,plate4
+QU380413,BIOWEEKLY,Seawater,Run2,2.2,2022-07-18,2023-04-10,2022,7,18,QU38,3.82,Ebb,1,,44760.38403,,0.426388889,,,Silvio/Rute,,,,,plate4
+QU380417,BIOWEEKLY,Field blank,Run2,2.2,2022-08-02,2023-05-08,2022,8,2,QU38,3.85,Ebb,0,1000,44775.38194,,0.441666667,,,Silvio,,,,,plate4
+QU380418,BIOWEEKLY,Seawater,Run2,2.2,2022-08-02,2023-03-16,2022,8,2,QU38,3.85,Ebb,1,1000,44775.38194,,0.445138889,,,Wyth,,,,,plate4
+QU380419,BIOWEEKLY,Seawater,Run2,2.2,2022-08-02,2023-03-17,2022,8,2,QU38,3.85,Ebb,1,1000,44775.38403,,0.44375,,,Wyth,,,,,plate4
+QU380420,BIOWEEKLY,Seawater,Run2,2.2,2022-08-02,2023-03-16,2022,8,2,QU38,3.85,Ebb,1,1000,44775.38472,,0.439583333,,,Wyth,,,,,plate4
+QU380421,BIOWEEKLY,Field blank,Run2,2.2,2022-08-15,2023-05-01,2022,8,15,QU38,4.13,Ebb,0,1000,44788.375,,0.407638889,,,Silvio,,,,,plate4
+QU380422,BIOWEEKLY,Seawater,Run2,2.2,2022-08-15,2023-04-10,2022,8,15,QU38,4.13,Ebb,1,1000,44788.375,,0.409722222,,,Silvio/Rute,,,,,plate4
+QU380423,BIOWEEKLY,Seawater,Run2,2.2,2022-08-15,2023-04-10,2022,8,15,QU38,4.13,Ebb,1,1000,44788.37569,,0.411805556,,,Silvio/Rute,,,,,plate4
+QU380424,BIOWEEKLY,Seawater,Run2,2.2,2022-08-15,2023-03-17,2022,8,15,QU38,4.13,Ebb,1,1000,44788.37639,,0.410416667,,,Wyth,,,,,plate4
+QU380425,BIOWEEKLY,Field blank,Run2,2.2,2022-08-29,2023-03-15,2022,8,29,QU38,4.08,Ebb,0,1000,44802.375,,0.416666667,,,Wyth,,,,,plate4
+QU380425,BIOWEEKLY,Field blank,Run2,2.2,2022-08-29,,2022,8,29,QU38,4.08,Ebb,0,1000,44802.375,,0.416666667,,,,,,,,plate4
+QU380426,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,2023-03-15,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37569,,0.422222222,,,Wyth,,,,,plate4
+QU380426,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37569,,0.422222222,,,,,,,,plate4
+QU380427,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,2023-03-17,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37639,,0.420833333,,,Wyth,Which 427? Small leak during 2hr incubation,,,,plate4
+QU380427,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37639,,0.420833333,,,,,,,,plate4
+QU380428,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,2023-03-17,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37708,,0.41875,,,Wyth,,,,,plate4
+QU380428,BIOWEEKLY,Seawater,Run2,2.2,2022-08-29,,2022,8,29,QU38,4.08,Ebb,1,1000,44802.37708,,0.41875,,,,,,,,plate4
+QU380429,BIOWEEKLY,Field blank,Run2,2.2,2022-09-12,2023-03-16,2022,9,12,QU38,0.83,Ebb,1,1000,44816.36528,,0.408333333,,,Wyth,,,,,plate4
+QU380430,BIOWEEKLY,Seawater,Run2,2.2,2022-09-12,2023-03-16,2022,9,12,QU38,0.83,Ebb,1,1000,44816.36597,,0.413194444,,,Wyth,,,,,plate4
+QU380431,BIOWEEKLY,Seawater,Run2,2.2,2022-09-12,2023-04-10,2022,9,12,QU38,0.83,Ebb,1,1000,44816.36667,,0.413888889,,,Silvio/Rute,,,,,plate4
+QU380432,BIOWEEKLY,Seawater,Run2,2.2,2022-09-12,2023-03-17,2022,9,12,QU38,0.83,Ebb,1,1000,44816.36736,,0.413888889,,,Wyth,,,,,plate4
+QU380433,BIOWEEKLY,Field blank,Run2,2.2,2022-09-26,2023-03-16,2022,9,26,QU38,3.49,Ebb,0,1000,44830.38472,,0.446527778,,,Wyth,small leak during 2hr incubation,,,,
+QU380434,BIOWEEKLY,Seawater,Run2,2.2,2022-09-26,2023-03-17,2022,9,26,QU38,3.49,Ebb,1,1000,44830.38542,,0.447222222,,,Wyth,,,,,
+QU380435,BIOWEEKLY,Seawater,Run2,2.2,2022-09-26,2023-03-16,2022,9,26,QU38,3.49,Ebb,1,1000,44830.38611,,0.450694444,,,Wyth,,,,,
+QU380436,BIOWEEKLY,Seawater,Run2,2.2,2022-09-26,2023-03-15,2022,9,26,QU38,3.49,Ebb,1,1000,44830.3875,,0.449305556,,,Wyth,,,,,
+QU380437,BIOWEEKLY,Field blank,Run2,2.2,2022-10-17,2023-03-17,2022,10,17,QU38,3.1,Flood,0,1000,44851.40486,,0.475694444,,,Wyth,,,,,plate4
+QU380438,BIOWEEKLY,Seawater,Run2,2.2,2022-10-17,2023-03-15,2022,10,17,QU38,3.1,Flood,1,1000,44851.40486,,0.476388889,,,Wyth,,,,,plate4
+QU380439,BIOWEEKLY,Seawater,Run2,2.2,2022-10-17,2023-03-15,2022,10,17,QU38,3.1,Flood,1,1000,44851.40556,,0.477083333,,,Wyth,Small leak during 2hr incubation,,,,plate4
+QU380440,BIOWEEKLY,Seawater,Run2,2.2,2022-10-17,2023-03-17,2022,10,17,QU38,3.1,Flood,1,1000,44851.40694,,0.476388889,,,Wyth,,,,,plate4
+QU380441,BIOWEEKLY,Field blank,Run2,2.2,2022-10-24,2023-05-01,2022,10,24,QU38,2.81,Ebb,0,1000,44858.41458,,0.458333333,,,Silvio,,,,,plate4
+QU380442,BIOWEEKLY,Seawater,Run2,2.2,2022-10-24,2023-03-16,2022,10,24,QU38,2.81,Ebb,1,1000,44858.41528,,0.465277778,,,Wyth,Small leak during 2hr incubation,,,,plate4
+QU380443,BIOWEEKLY,Seawater,Run2,2.2,2022-10-24,2023-03-17,2022,10,24,QU38,2.81,Ebb,1,1000,44858.41597,,0.465277778,,,Wyth,,,,,plate4
+QU380444,BIOWEEKLY,Seawater,Run2,2.2,2022-10-24,2023-03-16,2022,10,24,QU38,2.81,Ebb,1,1000,44858.41667,,0.465277778,,,Wyth,,,,,plate4
+QU380445,BIOWEEKLY,Field blank,Run2,2.2,2022-11-07,2023-03-07,2022,11,7,QU38,3.4,Flood,0,1000,44872.55486,,0.606944444,,,RS/WM training,"clogged, extra spin",,,,
+QU380446,BIOWEEKLY,Seawater,Run2,2.2,2022-11-07,2023-03-16,2022,11,7,QU38,3.4,Flood,1,1000,44872.55417,,0.607638889,,,Wyth,,,,,plate4
+QU380447,BIOWEEKLY,Seawater,Run2,2.2,2022-11-07,2023-03-07,2022,11,7,QU38,3.4,Flood,1,1000,44872.55556,,0.609027778,,,RS/WM training,,,,,
+QU380448,BIOWEEKLY,Seawater,Run2,2.2,2022-11-07,2023-03-16,2022,11,7,QU38,3.4,Flood,1,1000,44872.55625,,0.607638889,,,Wyth,,,,,
+QU380449,BIOWEEKLY,Field blank,Run2,2.2,2022-11-21,2023-05-08,2022,11,21,QU38,3,Flood,1,1000,44886.40764,,0.452777778,,,Silvio,,,,,
+QU380450,BIOWEEKLY,Seawater,Run2,2.2,2022-11-21,2023-03-17,2022,11,21,QU38,3,Flood,1,1000,44886.40764,,0.456944444,,,Wyth,,,,,
+QU380451,BIOWEEKLY,Seawater,Run2,2.2,2022-11-21,2023-03-06,2022,11,21,QU38,3,Flood,1,1000,44886.40903,,0.454861111,,,RS/WM training,,,,,
+QU380452,BIOWEEKLY,Seawater,Run2,2.2,2022-11-21,2023-03-17,2022,11,21,QU38,3,Flood,1,1000,44886.40972,,0.454861111,,,Wyth,,,,,
+QU380453,BIOWEEKLY,Seawater,Run2,2.2,2022-12-05,2023-03-17,2022,12,5,QU38,3.3,Ebb,1,1000,44900.40833,,0.471527778,,,Wyth,,,,,
+QU380454,BIOWEEKLY,Seawater,Run2,2.2,2022-12-05,2023-03-16,2022,12,5,QU38,3.3,Ebb,1,1000,44900.40903,,0.474305556,,,Wyth,small leak during 2hr incubation,,,,
+QU380455,BIOWEEKLY,Seawater,Run2,2.2,2022-12-05,2023-04-10,2022,12,5,QU38,3.3,Ebb,1,1000,44900.40694,,0.473611111,,,Silvio/Rute,,,,,
+QU380456,BIOWEEKLY,Field blank,Run2,2.2,2022-12-05,2023-03-17,2022,12,5,QU38,3.3,Ebb,0,1000,44900.40694,,0.472222222,,,Wyth,,,,,
+QU380457,BIOWEEKLY,Field blank,Run2,2.2,2023-01-09,2023-03-07,2023,1,9,QU38,4.7,Ebb,0,1000,44935.39722,,0.438888889,,,RS/WM training,,,,,
+QU380457,BIOWEEKLY,Field blank,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,0,1000,44935.39722,,0.438888889,,,,,,,,
+QU380457,BIOWEEKLY,Field blank,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,0,1000,44935.39722,,0.438888889,,,,,,,,
+QU380458,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,2023-03-07,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39722,,0.442361111,,,RS/WM training,leak at 30 min incubation,,,,
+QU380458,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39722,,0.442361111,,,,,,,,
+QU380458,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39722,,0.442361111,,,,,,,,
+QU380459,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,2023-03-17,2023,1,9,QU38,4.7,Ebb,1,1150,44935.39792,,0.440277778,,,Wyth,Which 459? Small leak during 2hr incubation,,,,
+QU380459,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1150,44935.39792,,0.440277778,,,,,,,,
+QU380459,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1150,44935.39792,,0.440277778,,,,,,,,
+QU380460,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,2023-03-07,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39861,,0.438888889,,,RS/WM training,Which 460?,,,,
+QU380460,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39861,,0.438888889,,,,,,,,
+QU380460,BIOWEEKLY,Seawater,Run2,2.2,2023-01-09,,2023,1,9,QU38,4.7,Ebb,1,1000,44935.39861,,0.438888889,,,,,,,,
+QU380461,BIOWEEKLY,Field blank,Run2,2.2,2023-01-23,2023-03-07,2023,1,23,QU38,3.51,Flood,0,1000,44949.59028,,0.63125,,,RS/WM training,,,,,
+QU380462,BIOWEEKLY,Seawater,Run2,2.2,2023-01-23,2023-03-07,2023,1,23,QU38,3.51,Flood,1,1000,44949.59097,,0.635416667,,,RS/WM training,"Leaked, lost lots of volume",,,,
+NEG-PCR6,,PCR blank,Run2,2.3,,,,,,,,,,,,,,,,,,,,,
+QU380264,BIOWEEKLY,Seawater,Run2,2.3,2021-06-07,2022-07-21,2021,6,7,QU38,#REF!,#REF!,1,1000,44354.38611,,0.438888889,,,Rosie Savage,"Not in metadata, column clogged -> colleen fixed metadata",4,,,plate3
+QU380287,BIOWEEKLY,Seawater,Run2,2.3,2021-07-19,2022-04-19,2021,7,19,QU38,#REF!,#REF!,1,1000,44396.38819,,0.440972222,,,Carly,Sticker says QU380287 but there is no data enrty for this sample. -> colleen fixed metadata,3,,,plate3
+QU380463,BIOWEEKLY,Seawater,Run2,2.3,2023-01-23,2023-03-17,2023,1,23,QU38,3.51,Flood,1,1000,44949.59167,,0.633333333,,,Wyth,,,,,
+QU380464,BIOWEEKLY,Seawater,Run2,2.3,2023-01-23,2023-03-07,2023,1,23,QU38,3.51,Flood,1,1000,44949.59167,,0.631944444,,,RS/WM training,,,,,
+QU380465,BIOWEEKLY,Field blank,Run2,2.3,2023-02-06,2023-03-06,2023,2,6,QU38,4.3,Ebb,0,1000,44963.38472,,0.436805556,,,RS/WM training,,,,,
+QU380466,BIOWEEKLY,Seawater,Run2,2.3,2023-02-06,2023-03-06,2023,2,6,QU38,4.3,Ebb,1,1000,44963.38472,,0.4375,,,RS/WM training,Leaked during 30 min incubation,,,,
+QU380467,BIOWEEKLY,Seawater,Run2,2.3,2023-02-06,2023-03-07,2023,2,6,QU38,4.3,Ebb,1,1000,44963.38542,,0.4375,,,RS/WM training,,,,,
+QU380469,BIOWEEKLY,Field blank,Run2,2.3,2023-02-21,2023-03-07,2023,2,21,QU38,3.9,Ebb,0,1000,44978.40972,,0.473611111,,,RS/WM training,,,,,
+QU380470,BIOWEEKLY,Seawater,Run2,2.3,2023-02-21,2023-03-07,2023,2,21,QU38,3.9,Ebb,1,1000,44978.47361,,0.473611111,,,RS/WM training,,,,,
+QU380471,BIOWEEKLY,Seawater,Run2,2.3,2023-02-21,2023-05-01,2023,2,21,QU38,3.9,Ebb,1,1000,44978.41042,,0.474305556,,,Silvio,,,,,
+QU380472,BIOWEEKLY,Seawater,Run2,2.3,2023-02-21,2023-03-06,2023,2,21,QU38,3.9,Ebb,1,1000,44978.41111,,0.474305556,,,RS/WM training,,,,,
+QU380473,BIOWEEKLY,Field blank,Run2,2.3,2023-03-07,2023-06-21,2023,3,7,QU38,3.08,Ebb,0,1000,44992.43264,,0.5,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380474,BIOWEEKLY,Seawater,Run2,2.3,2023-03-07,2023-06-21,2023,3,7,QU38,3.08,Ebb,1,1000,44992.43264,,0.501388889,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380475,BIOWEEKLY,Seawater,Run2,2.3,2023-03-07,2023-06-21,2023,3,7,QU38,3.08,Ebb,1,1000,44992.43403,,0.503472222,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380476,BIOWEEKLY,Seawater,Run2,2.3,2023-03-07,2023-06-21,2023,3,7,QU38,3.08,Ebb,1,1000,44992.43542,,0.5,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380477,BIOWEEKLY,Field blank,Run2,2.3,2023-03-20,2023-06-21,2023,3,20,QU38,3.33,Ebb,0,1000,45005.41875,,0.46875,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380478,BIOWEEKLY,Seawater,Run2,2.3,2023-03-20,2023-06-21,2023,3,20,QU38,3.33,Ebb,1,1000,45005.41944,,0.46875,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380479,BIOWEEKLY,Seawater,Run2,2.3,2023-03-20,2023-06-21,2023,3,20,QU38,3.33,Ebb,1,1000,45005.42083,,0.46875,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380480,BIOWEEKLY,Seawater,Run2,2.3,2023-03-20,2023-06-21,2023,3,20,QU38,3.33,Ebb,1,1000,45005.42222,,0.46875,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380481,BIOWEEKLY,Field blank,Run2,2.3,2023-04-04,2023-06-21,2023,4,4,QU38,2.17,Ebb,0,1000,45020.42708,,0.481944444,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380482,BIOWEEKLY,Seawater,Run2,2.3,2023-04-04,2023-06-21,2023,4,4,QU38,2.17,Ebb,1,1000,45020.42708,,0.489583333,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380483,BIOWEEKLY,Seawater,Run2,2.3,2023-04-04,2023-06-21,2023,4,4,QU38,2.17,Ebb,1,1000,45020.42778,,0.504861111,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380484,BIOWEEKLY,Seawater,Run2,2.3,2023-04-04,2023-06-21,2023,4,4,QU38,2.17,Ebb,1,1000,45020.42847,,0.504166667,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380485,BIOWEEKLY,Field blank,Run2,2.3,2023-05-01,2023-06-21,2023,5,1,QU38,2.6,Ebb,0,1000,45047.39236,,0.473611111,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380486,BIOWEEKLY,Seawater,Run2,2.3,2023-05-01,2023-06-21,2023,5,1,QU38,2.6,Ebb,1,1000,45047.39236,,0.475694444,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380487,BIOWEEKLY,Seawater,Run2,2.3,2023-05-01,2023-06-21,2023,5,1,QU38,2.6,Ebb,1,1000,45047.39375,,0.474305556,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380488,BIOWEEKLY,Seawater,Run2,2.3,2023-05-01,2023-06-21,2023,5,1,QU38,2.6,Ebb,1,1000,45047.39444,,0.474305556,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380489,BIOWEEKLY,Field blank,Run2,2.3,2023-04-18,2023-06-21,2023,4,18,QU38,2.83,Ebb,0,1000,45034.39792,,0.461805556,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380490,BIOWEEKLY,Seawater,Run2,2.3,2023-04-18,2023-06-21,2023,4,18,QU38,2.83,Ebb,1,1000,45034.39514,,0.472222222,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380491,BIOWEEKLY,Seawater,Run2,2.3,2023-04-18,2023-06-21,2023,4,18,QU38,2.83,Ebb,1,1000,45034.39583,,0.472222222,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380492,BIOWEEKLY,Seawater,Run2,2.3,2023-04-18,2023-06-21,2023,4,18,QU38,2.83,Ebb,1,1000,45034.39653,,0.472222222,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380493,BIOWEEKLY,Field blank,Run2,2.3,2023-05-15,2023-06-21,2023,5,15,QU38,1.99,Flood,0,1000,45061.39653,,0.457638889,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380494,BIOWEEKLY,Seawater,Run2,2.3,2023-05-15,2023-06-21,2023,5,15,QU38,1.99,Flood,1,1000,45061.39653,,0.461111111,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380495,BIOWEEKLY,Seawater,Run2,2.3,2023-05-15,2023-06-21,2023,5,15,QU38,1.99,Flood,1,1000,45061.39722,,0.458333333,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380496,BIOWEEKLY,Seawater,Run2,2.3,2023-05-15,2023-06-21,2023,5,15,QU38,1.99,Flood,1,1000,45061.39792,,0.457638889,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380497,BIOWEEKLY,Field blank,Run2,2.3,2023-05-31,2023-06-21,2023,5,31,QU38,1.4,Ebb,0,1000,45077.37431,,0.429166667,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380498,BIOWEEKLY,Seawater,Run2,2.3,2023-05-31,2023-06-21,2023,5,31,QU38,1.4,Ebb,1,1000,45077.37431,,0.427083333,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380499,BIOWEEKLY,Seawater,Run2,2.3,2023-05-31,2023-06-21,2023,5,31,QU38,1.4,Ebb,1,1000,45077.375,,0.428472222,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+QU380500,BIOWEEKLY,Seawater,Run2,2.3,2023-05-31,2023-06-21,2023,5,31,QU38,1.4,Ebb,1,1000,45077.37569,,0.427083333,,extraction info added by Rosie Savage,Rosie Savage,QU38XN029,7,,,
+bio2-QU38XN001,,Extraction blank,Run2,2.3,,2021-11-30,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN002,,Extraction blank,Run2,2.3,,2021-12-01,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN003,,Extraction blank,Run2,2.3,,2021-12-03,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN004,,Extraction blank,Run2,2.3,,2022-01-14,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN005,,Extraction blank,Run2,2.3,,2022-01-21,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN006,,Extraction blank,Run2,2.3,,2022-01-28,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN007,,Extraction blank,Run2,2.3,,2022-02-10,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN008,,Extraction blank,Run2,2.3,,2022-02-14,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN009,,Extraction blank,Run2,2.3,,2022-02-18,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN010,,Extraction blank,Run2,2.3,,2022-03-02,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN011,,Extraction blank,Run2,2.3,,2022-03-11,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN012,,Extraction blank,Run2,2.3,,2022-03-21,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN013,,Extraction blank,Run2,2.3,,2022-04-04,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN014,,Extraction blank,Run2,2.3,,2022-04-12,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN015,,Extraction blank,Run2,2.3,,2022-04-19,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN016,,Extraction blank,Run2,2.3,,2022-05-09,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN017,,Extraction blank,Run2,2.3,,2022-05-13,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN018,,Extraction blank,Run2,2.3,,2022-05-18,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN019,,Extraction blank,Run2,2.3,,2022-06-03,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN020,,Extraction blank,Run2,2.3,,2022-07-21,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN021,,Extraction blank,Run2,2.3,,2023-03-06,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN022,,Extraction blank,Run2,2.3,,2023-03-07,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN023,,Extraction blank,Run2,2.3,,2023-03-15,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN024,,Extraction blank,Run2,2.3,,2023-03-16,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN025,,Extraction blank,Run2,2.3,,2023-03-17,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN026,,Extraction blank,Run2,2.3,,2023-04-10,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN027,,Extraction blank,Run2,2.3,,2023-05-01,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN029,,Extraction blank,Run2,2.3,,2023-06-21,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN039,,Extraction blank,Run2,2.3,,2023-05-10,,,,,,,,,,,,,,,,,,,
+bio2-QU38XN040,,Extraction blank,Run2,2.3,,2023-05-15,,,,,,,,,,,,,,,,,,,
+QM2801,BIOweekly,Seawater,#N/A,#N/A,2021-05-31,,2021,5,31,QU38,#REF!,#REF!, QM2801,,,,,,"Missing lid, omitting the bottle — did not do this drop",,,,,,plate1
+QU380388 ,BIOWEEKLY,Seawater,#N/A,#N/A,2022-04-25,2023-05-10,2022,4,25,QU38,3.01,,1,,44676.38194,,0.441666667,,,Wyth,,,,,plate4
+QU380468,BIOWEEKLY,Seawater,#N/A,#N/A,2023-02-06,,2023,2,6,QU38,4.3,Ebb,1,1050,44963.38611,,0.438888889,,,,,,,,
