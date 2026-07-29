@@ -8,7 +8,7 @@
 
 <div align='center'>
 
-[![DOI](https://img.shields.io/badge/DOI-10.XXXXX%2FXXXXX-blue)](https://doi.org/10.21966/059x-wx05)
+[![DOI](https://img.shields.io/badge/DOI-10.21966%2F059x--wx05-blue)](https://doi.org/10.21966/059x-wx05)
 
 </div>
 
