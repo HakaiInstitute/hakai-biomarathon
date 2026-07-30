@@ -42,7 +42,7 @@ fasta <- seqinr::read.fasta(
 
 # Create table for sampling event metadata
 biom <- data.frame(
-  eventID = "Hakai-Biomarathon",
+  datasetID = "Hakai-Biomarathon",
   language = "en",
   license = "http://creativecommons.org/licenses/by/4.0/legalcode",
   rightsHolder = "Hakai Institute",
