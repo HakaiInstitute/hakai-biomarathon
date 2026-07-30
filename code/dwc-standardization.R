@@ -19,7 +19,8 @@ batch_metadata <- readxl::read_excel(
   here("data", "Lab Metadata Template - Aquatic.xlsx"),
   sheet = "batch sheet (draft)"
 ) |>
-  janitor::clean_names()
+  janitor::clean_names() |>
+  pivot_wider(names_from = column_header, values_from = example_s_for_column)
 lab_metadata <- readxl::read_excel(
   here("data", "Lab Metadata Template - Aquatic.xlsx"),
   sheet = "lab sheet (draft)"
@@ -110,3 +111,5 @@ DNA_sequence_CO1 <- unname(unlist(fasta))
 fasta_CO1 <- cbind(asv_CO1, DNA_sequence_CO1) |>
   as.data.frame() |>
   dplyr::rename(ASV = asv_CO1, DNA_sequence = DNA_sequence_CO1)
+
+## Create the DNA-derived data extension
