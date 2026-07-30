@@ -166,3 +166,9 @@ worms_tax_tab_COI_full <- rownames_to_column(
   worms_tax_tab_COI_full,
   var = "ASV"
 )
+
+# Write to csv
+write.csv(
+  worms_tax_tab_COI_full,
+  here("data", "Hakai_BioMarathon_taxonomy_COI_worms.csv")
+)
