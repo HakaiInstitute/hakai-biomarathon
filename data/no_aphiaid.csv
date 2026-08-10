@@ -1,142 +1,84 @@
-"","kingdom","phylum","class","order","family","genus","scientificName","scientificNameID","taxonRank","verbatimIdentification","scientificNameAuthorship","identificationQualifier"
-"ASV10036",NA,NA,NA,NA,NA,NA,"Dero obtusa",NA,NA,"Dero obtusa",NA,NA
-"ASV10134",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV10266",NA,NA,NA,NA,NA,NA,"Sulcospira",NA,NA,"Sulcospira",NA,NA
-"ASV10277",NA,NA,NA,NA,NA,NA,"Flavobacterium ammonificans",NA,NA,"Flavobacterium ammonificans",NA,NA
-"ASV10390",NA,NA,NA,NA,NA,NA,"Clydonella sawyeri",NA,NA,"Clydonella sawyeri",NA,NA
-"ASV10422",NA,NA,NA,NA,NA,NA,"Octolasion cyaneum",NA,NA,"Octolasion cyaneum",NA,NA
-"ASV10548",NA,NA,NA,NA,NA,NA,"Bubalus carabanensis",NA,NA,"Bubalus carabanensis",NA,NA
-"ASV10574",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV10606",NA,NA,NA,NA,NA,NA,"Lagenidium caudatum",NA,NA,"Lagenidium caudatum",NA,NA
-"ASV10644",NA,NA,NA,NA,NA,NA,"Nitzschia inconspicua",NA,NA,"Nitzschia inconspicua",NA,NA
-"ASV10791",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV10866",NA,NA,NA,NA,NA,NA,"Myzocytiopsis",NA,NA,"Myzocytiopsis sp. venatrix",NA,NA
-"ASV10919",NA,NA,NA,NA,NA,NA,"Dendrobaena attemsi",NA,NA,"Dendrobaena attemsi",NA,NA
-"ASV10964",NA,NA,NA,NA,NA,NA,"Ursus americanus",NA,NA,"Ursus americanus",NA,NA
-"ASV11127",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV11189",NA,NA,NA,NA,NA,NA,"Limnophyes minimus",NA,NA,"Limnophyes minimus",NA,NA
-"ASV11258",NA,NA,NA,NA,NA,NA,"Trachydiscus minutus",NA,NA,"Trachydiscus minutus",NA,NA
-"ASV11308",NA,NA,NA,NA,NA,NA,"Chiridota albatrossii complex 1 AM-2017",NA,NA,"Chiridota albatrossii complex 1 AM-2017",NA,NA
-"ASV11373",NA,NA,NA,NA,NA,NA,"Urechidicola croceus",NA,NA,"Urechidicola croceus",NA,NA
-"ASV11441",NA,NA,NA,NA,NA,NA,"Euscelis",NA,NA,"Euscelis",NA,NA
-"ASV11560",NA,NA,NA,NA,NA,NA,"Polaribacter reichenbachii",NA,NA,"Polaribacter reichenbachii",NA,NA
-"ASV11569",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV11772",NA,NA,NA,NA,NA,NA,"Euscelis",NA,NA,"Euscelis",NA,NA
-"ASV11807",NA,NA,NA,NA,NA,NA,"Nitzschia inconspicua",NA,NA,"Nitzschia inconspicua",NA,NA
-"ASV1190",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV12003",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV12237",NA,NA,NA,NA,NA,NA,"Nitzschia inconspicua",NA,NA,"Nitzschia inconspicua",NA,NA
-"ASV1235",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV12507",NA,NA,NA,NA,NA,NA,"Achlya",NA,NA,"Achlya sp. SW-2023a",NA,NA
-"ASV12576",NA,NA,NA,NA,NA,NA,"Fujientomon dicestum",NA,NA,"Fujientomon dicestum",NA,NA
-"ASV12618",NA,NA,NA,NA,NA,NA,"Schizostauron trachyderma",NA,NA,"Schizostauron trachyderma",NA,NA
-"ASV1299",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV1321",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV1455",NA,NA,NA,NA,NA,NA,"Flavobacterium ammonificans",NA,NA,"Flavobacterium ammonificans",NA,NA
-"ASV1501",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV1563",NA,NA,NA,NA,NA,NA,"Harpacticus aff. obscurus",NA,NA,"Harpacticus aff. obscurus 2 ML-2018",NA,NA
-"ASV1627",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV1724",NA,NA,NA,NA,NA,NA,"Homo sapiens",NA,NA,"Homo sapiens",NA,NA
-"ASV1765",NA,NA,NA,NA,NA,NA,"Paracyclops chiltoni",NA,NA,"Paracyclops chiltoni",NA,NA
-"ASV1930",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV1942",NA,NA,NA,NA,NA,NA,"Ralfsioid",NA,NA,"Ralfsioid sp. 4GWS",NA,NA
-"ASV2139",NA,NA,NA,NA,NA,NA,"alpha proteobacterium",NA,NA,"alpha proteobacterium HIMB59",NA,NA
-"ASV2182",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV2207",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV2246",NA,NA,NA,NA,NA,NA,"Lepidostoma unicolor",NA,NA,"Lepidostoma unicolor",NA,NA
-"ASV2290",NA,NA,NA,NA,NA,NA,"Ursus americanus",NA,NA,"Ursus americanus",NA,NA
-"ASV2322",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV2420",NA,NA,NA,NA,NA,NA,"Planktomarina temperata",NA,NA,"Planktomarina temperata RCA23",NA,NA
-"ASV2544",NA,NA,NA,NA,NA,NA,"Nitzschia inconspicua",NA,NA,"Nitzschia inconspicua",NA,NA
-"ASV2575",NA,NA,NA,NA,NA,NA,"Homo sapiens",NA,NA,"Homo sapiens",NA,NA
-"ASV2602",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV2959",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV3084",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV3120",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV3165",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV3183",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV3719",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV3742",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV3799",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV3858",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV3953",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV4110",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV415",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV4240",NA,NA,NA,NA,NA,NA,"Amphinemura",NA,NA,"Amphinemura",NA,NA
-"ASV4259",NA,NA,NA,NA,NA,NA,"Homo sapiens",NA,NA,"Homo sapiens",NA,NA
-"ASV4334",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV4347",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV4465",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV4467",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV451",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV4538",NA,NA,NA,NA,NA,NA,"Euclymene zonalis CMC01",NA,NA,"Euclymene zonalis CMC01",NA,NA
-"ASV4673",NA,NA,NA,NA,NA,NA,"Chondria cf. curdieana",NA,NA,"Chondria cf. curdieana",NA,NA
-"ASV4688",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV4774",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV4829",NA,NA,NA,NA,NA,NA,"Eukaryota",NA,NA,NA,NA,NA
-"ASV4870",NA,NA,NA,NA,NA,NA,"Margaritifera falcata",NA,NA,"Margaritifera falcata",NA,NA
-"ASV5007",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV5201",NA,NA,NA,NA,NA,NA,"Methylophilales bacterium",NA,NA,"Methylophilales bacterium",NA,NA
-"ASV5370",NA,NA,NA,NA,NA,NA,"Plecoptera",NA,NA,"Plecoptera",NA,NA
-"ASV5410",NA,NA,NA,NA,NA,NA,"Orthocladius",NA,NA,"Orthocladius",NA,NA
-"ASV5487",NA,NA,NA,NA,NA,NA,"Candidatus Arcticimaribacter forsetii",NA,NA,"Candidatus Arcticimaribacter forsetii",NA,NA
-"ASV565",NA,NA,NA,NA,NA,NA,"alpha proteobacterium",NA,NA,"alpha proteobacterium HIMB59",NA,NA
-"ASV5656",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV5688",NA,NA,NA,NA,NA,NA,"Lumbricus rubellus",NA,NA,"Lumbricus rubellus",NA,NA
-"ASV5720",NA,NA,NA,NA,NA,NA,"Polaribacter reichenbachii",NA,NA,"Polaribacter reichenbachii",NA,NA
-"ASV5766",NA,NA,NA,NA,NA,NA,"alpha proteobacterium",NA,NA,"alpha proteobacterium HIMB59",NA,NA
-"ASV5837",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV5889",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV5994",NA,NA,NA,NA,NA,NA,"Lepidostoma rayneri",NA,NA,"Lepidostoma rayneri",NA,NA
-"ASV6004",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV6051",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV6109",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV6120",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV6140",NA,NA,NA,NA,NA,NA,"Candidatus Arcticimaribacter forsetii",NA,NA,"Candidatus Arcticimaribacter forsetii",NA,NA
-"ASV6292",NA,NA,NA,NA,NA,NA,"Ralfsioid",NA,NA,"Ralfsioid sp. 4GWS",NA,NA
-"ASV6311",NA,NA,NA,NA,NA,NA,"Sminthuridae",NA,NA,"Sminthuridae",NA,NA
-"ASV6370",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV6464",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV6573",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV6792",NA,NA,NA,NA,NA,NA,"Castor canadensis",NA,NA,"Castor canadensis",NA,NA
-"ASV7023",NA,NA,NA,NA,NA,NA,"Prosimulium travisi",NA,NA,"Prosimulium travisi",NA,NA
-"ASV7027",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV7158",NA,NA,NA,NA,NA,NA,"Eukaryota",NA,NA,"Eukaryota",NA,NA
-"ASV7190",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV7223",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV7249",NA,NA,NA,NA,NA,NA,"Sminthuridae",NA,NA,"Sminthuridae",NA,NA
-"ASV7321",NA,NA,NA,NA,NA,NA,"Chrysochromulina tobinii",NA,NA,"Chrysochromulina tobinii",NA,NA
-"ASV7400",NA,NA,NA,NA,NA,NA,"Graphopsocus cruciatus",NA,NA,"Graphopsocus cruciatus",NA,NA
-"ASV7404",NA,NA,NA,NA,NA,NA,"Polaribacter reichenbachii",NA,NA,"Polaribacter reichenbachii",NA,NA
-"ASV7475",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV7481",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV7542",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV7621",NA,NA,NA,NA,NA,NA,"Octolasion cyaneum",NA,NA,"Octolasion cyaneum",NA,NA
-"ASV7731",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV7915",NA,NA,NA,NA,NA,NA,"Trieres chinensis",NA,NA,"Trieres chinensis",NA,NA
-"ASV7975",NA,NA,NA,NA,NA,NA,"Myroides odoratimimus",NA,NA,"Myroides odoratimimus",NA,NA
-"ASV8027",NA,NA,NA,NA,NA,NA,"Polaribacter reichenbachii",NA,NA,"Polaribacter reichenbachii",NA,NA
-"ASV8042",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV8073",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV8119",NA,NA,NA,NA,NA,NA,"Lagenidium caudatum",NA,NA,"Lagenidium caudatum",NA,NA
-"ASV8127",NA,NA,NA,NA,NA,NA,"Polaribacter reichenbachii",NA,NA,"Polaribacter reichenbachii",NA,NA
-"ASV8145",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV815",NA,NA,NA,NA,NA,NA,"Arhynchite cf. pugettensis",NA,NA,"Arhynchite cf. pugettensis A6200",NA,NA
-"ASV8171",NA,NA,NA,NA,NA,NA,"Leptophlebiidae",NA,NA,"Leptophlebiidae",NA,NA
-"ASV8219",NA,NA,NA,NA,NA,NA,"Chrysochromulina parva",NA,NA,"Chrysochromulina parva",NA,NA
-"ASV8248",NA,NA,NA,NA,NA,NA,"Candidatus Megaira endosymbiont of Mesostigma viride",NA,NA,"Candidatus Megaira endosymbiont of Mesostigma viride",NA,NA
-"ASV8363",NA,NA,NA,NA,NA,NA,"Homo sapiens",NA,NA,"Homo sapiens",NA,NA
-"ASV8378",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV8579",NA,NA,NA,NA,NA,NA,"Tomocerus",NA,NA,"Tomocerus",NA,NA
-"ASV8596",NA,NA,NA,NA,NA,NA,"Candidatus Megaira endosymbiont of Mesostigma viride",NA,NA,"Candidatus Megaira endosymbiont of Mesostigma viride",NA,NA
-"ASV8698",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV8703",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
-"ASV8748",NA,NA,NA,NA,NA,NA,"Lumbricus rubellus",NA,NA,"Lumbricus rubellus",NA,NA
-"ASV9084",NA,NA,NA,NA,NA,NA,"Canis lupus",NA,NA,"Canis lupus",NA,NA
-"ASV9500",NA,NA,NA,NA,NA,NA,"Milichiidae",NA,NA,"Milichiidae",NA,NA
-"ASV9539",NA,NA,NA,NA,NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA,"Candidatus Pelagibacter ubique HTCC1062",NA,NA
-"ASV9605",NA,NA,NA,NA,NA,NA,"Lumbricidae",NA,NA,"Lumbricidae",NA,NA
-"ASV9759",NA,NA,NA,NA,NA,NA,"Pythium angustatum",NA,NA,"Pythium angustatum",NA,NA
-"ASV977",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
-"ASV9848",NA,NA,NA,NA,NA,NA,"Clydonella sawyeri",NA,NA,"Clydonella sawyeri",NA,NA
-"ASV9876",NA,NA,NA,NA,NA,NA,"Eukaryota",NA,NA,NA,NA,NA
+"scientificName","verbatimIdentification"
+"Trieres chinensis","Trieres chinensis"
+"Dero obtusa","Dero obtusa"
+"alpha proteobacterium","alpha proteobacterium HIMB59"
+"Saprolegnia parasitica","Saprolegnia parasitica"
+"Bos indicus","Bos indicus"
+"Sulcospira","Sulcospira"
+"Flavobacterium ammonificans","Flavobacterium ammonificans"
+"Clydonella sawyeri","Clydonella sawyeri"
+"Phytophthora gonapodyides","Phytophthora gonapodyides"
+"Octolasion cyaneum","Octolasion cyaneum"
+"Nitzschia inconspicua","Nitzschia inconspicua"
+"Bubalus carabanensis","Bubalus carabanensis"
+"Tyrophagus fanetzhangorum","Tyrophagus fanetzhangorum"
+"Batrachospermum dapsile","Batrachospermum dapsile"
+"Lagenidium caudatum","Lagenidium caudatum"
+"Onocosmoecus unicolor","Onocosmoecus unicolor"
+"Myzocytiopsis","Myzocytiopsis sp. venatrix"
+"Cystobranchus salmositicus","Cystobranchus salmositicus"
+"Dendrobaena attemsi","Dendrobaena attemsi"
+"Ursus americanus","Ursus americanus"
+"Bos taurus","Bos taurus"
+"Ralfsioid","Ralfsioid sp. 4GWS"
+"Limnophyes minimus","Limnophyes minimus"
+"Trachydiscus minutus","Trachydiscus minutus"
+"Chiridota albatrossii complex","Chiridota albatrossii complex 1 AM-2017"
+"Planktomarina temperata","Planktomarina temperata RCA23"
+"Urechidicola croceus","Urechidicola croceus"
+"Euscelis","Euscelis"
+"Stylodrilus heringianus","Stylodrilus heringianus"
+"Pythium junctum","Pythium junctum"
+"Polaribacter reichenbachii","Polaribacter reichenbachii"
+"Dinobryon cylindricum var. palustre","Dinobryon cylindricum var. palustre"
+"Appasus major","Appasus major"
+"Serratia","Serratia"
+"Homo sapiens","Homo sapiens"
+"Nothophytophthora chlamydospora","Nothophytophthora chlamydospora"
+"Achlya","Achlya sp. SW-2023a"
+"Fujientomon dicestum","Fujientomon dicestum"
+"Neoporphyra perforata","Neoporphyra perforata"
+"Schizostauron trachyderma","Schizostauron trachyderma"
+"Amaricoccus","uncultured bacterium TAYNAYA-8"
+"Paracyclops chiltoni","Paracyclops chiltoni"
+"Lepidostoma unicolor","Lepidostoma unicolor"
+"Myroides odoratimimus","Myroides odoratimimus"
+"Methylophilales bacterium","Methylophilales bacterium"
+"Dendrodrilus","Dendrodrilus sp. BOLD:AAA7664"
+"Ephemerella","Ephemerella"
+"Picobiliphyte","Picobiliphyte sp. MS584-11"
+"Amphinemura","Amphinemura"
+"Chondria cf. curdieana","Chondria cf. curdieana"
+"Eukaryota",NA
+"Margaritifera falcata","Margaritifera falcata"
+"Plecoptera","Plecoptera"
+"Orthocladius","Orthocladius"
+"Candidatus Arcticimaribacter forsetii","Candidatus Arcticimaribacter forsetii"
+"Eukaryota","Eukaryota"
+"Lumbricus rubellus","Lumbricus rubellus"
+"Lepidostoma rayneri","Lepidostoma rayneri"
+"Bimastos rubidus","Bimastos rubidus"
+"Sminthuridae","Sminthuridae"
+"[Olpidiopsis] porphyrae var. scotiae (nom. inval.)","[Olpidiopsis] porphyrae var. scotiae (nom. inval.)"
+"Castor canadensis","Castor canadensis"
+"Prosimulium travisi","Prosimulium travisi"
+"Ralstonia insidiosa","Ralstonia insidiosa"
+"Austrarchaea","Austrarchaea sp. QLD_2"
+"Chrysochromulina tobinii","Chrysochromulina tobinii"
+"Graphopsocus cruciatus","Graphopsocus cruciatus"
+"Olleya aquimaris","Olleya aquimaris"
+"Leptophlebiidae","Leptophlebiidae"
+"Chrysochromulina parva","Chrysochromulina parva"
+"Candidatus Megaira endosymbiont of Mesostigma viride","Candidatus Megaira endosymbiont of Mesostigma viride"
+"Epipaschiinae","Epipaschiinae"
+"Phytophthora bilorbang","Phytophthora bilorbang"
+"Tomocerus","Tomocerus"
+"Canis lupus","Canis lupus"
+"Naegleria americana","Naegleria americana"
+"Milichiidae","Milichiidae"
+"Lumbricidae","Lumbricidae"
+"Candidatus Pelagibacter giovannonii","Candidatus Pelagibacter giovannonii"
+"Candidatus Nucleicultrix amoebiphila FS5","Candidatus Nucleicultrix amoebiphila FS5"
+"Pythium angustatum","Pythium angustatum"
+"Baetis","Baetis"
+"Rhacognathus","Rhacognathus"

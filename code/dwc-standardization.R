@@ -1,6 +1,6 @@
 # Install packages
 install.packages("devtools")
-devtools::install_github("iobis/obistools", force = TRUE)
+pak::pak("iobis/obistools")
 pak::pak("HakaiInstitute/biocleanr")
 
 # Load packages
@@ -49,6 +49,7 @@ meta <- left_join(
   lab_metadata,
   by = c("sample_id", "sample_type")
 ) |>
+  filter(sample_type == "Seawater") |>
   dplyr::rename(
     materialSampleID = sample_id,
     verbatimLocality = site,
