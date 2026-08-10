@@ -60,7 +60,7 @@ na_labels <- c(
   "unknown genus",
   "uncultured *"
 )
-qualifier_pattern <- "cf. promare|cf. depressum|cf. urtica|aff. granulata|cf. pugettensis|aff. obscurus"
+qualifier_pattern <- "cf. promare|cf. depressum|cf. urtica|aff. granulata|cf. pugettensis|aff. obscurus|cf. curdieana"
 
 # Read in taxonomic data, filter for Eukaryota and Bacteria
 taxtab_COI <- fread(
@@ -150,6 +150,7 @@ worms_taxonomy_tbl <- purrr::map_dfr(unique_species_COI, get_worms_lineage)
 ## 1 196347 Actinocyclus                          Ehrenberg, 1831                                                           accepted
 ## 1 602771 Amicula                               A. Witkowski, H. Lange-Bertalot & D. Metzeltin, 2000                      accepted
 ## 1 338908 Lepidasthenia longicirrata            Berkeley, 1923                                                            accepted
+## 1 143906 Chondria                              C.Agardh, 1817                                                            accepted
 
 # Join lineage info (including authorship, looked up per unique species in
 # get_worms_lineage) back to ASVs, and finalize DwC columns
@@ -177,9 +178,8 @@ missing_aphiaid <- worms_tax_tab_COI_full |>
   filter(is.na(scientificNameID))
 missing_aphiaid
 
-# There are 87 unique taxa that do not have an associated scientificNameID
-# or taxonomic hierarchical information. Verify with Libby and Matt
-# that these can be omitted from OBIS submission.
+# Review taxa without a scientificNameID or taxonomic hierarchy with Libby
+# and Matt before deciding whether they can be omitted from the OBIS submission.
 no_aphiaid <- missing_aphiaid |>
   distinct(scientificName, verbatimIdentification)
 

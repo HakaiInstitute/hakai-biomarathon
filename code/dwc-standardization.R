@@ -1,5 +1,7 @@
 # Install packages
-install.packages("devtools")
+if (!requireNamespace("pak", quietly = TRUE)) {
+  install.packages("pak")
+}
 pak::pak("iobis/obistools")
 pak::pak("HakaiInstitute/biocleanr")
 
@@ -93,9 +95,9 @@ taxonomy <- taxonomy[-1]
 # Pivot the ASV table
 asv <- asv |>
   dplyr::rename(ASV = row_names) |>
-  select(ASV, QU380001:QU380500) |>
+  select(ASV, starts_with("QU")) |>
   pivot_longer(
-    QU380001:QU380500,
+    starts_with("QU"),
     names_to = "materialSampleID",
     values_to = "organismQuantity"
   ) |>
@@ -106,7 +108,7 @@ asv <- asv |>
     basisOfRecord = "MaterialSample",
     eventID = paste("Hakai-Biomarathon", materialSampleID, sep = "-")
   ) |>
-  group_by(materialSampleID, ASV) |>
+  group_by(materialSampleID) |>
   mutate(
     occurrenceID = paste(eventID, ASV, "occ", sep = "-"),
     sampleSizeValue = sum(organismQuantity)
@@ -122,7 +124,7 @@ fasta_CO1 <- cbind(asv_CO1, DNA_sequence_CO1) |>
 
 # Join ASV to samples and taxonomic information:
 DNAtable <- dplyr::left_join(asv, taxonomy, by = "ASV")
-DNAtable <- dplyr::left_join(
+DNAtable <- dplyr::inner_join(
   DNAtable,
   meta,
   by = c("materialSampleID", "eventID")
@@ -191,7 +193,8 @@ HB_occ_core <- HB_occ |>
 
 write_csv(
   HB_occ_core,
-  here("obis", "Hakai_BM_occ.csv")
+  here("obis", "Hakai_BM_occ.csv"),
+  na = ""
 )
 
 ## Create the DNA-derived data extension
@@ -235,5 +238,6 @@ sequence_meta <- sequence_meta |>
 # Save this data table in the obis folder
 write_csv(
   sequence_meta,
-  here("obis", "HB_DNA_data.csv")
+  here("obis", "HB_DNA_data.csv"),
+  na = ""
 )
