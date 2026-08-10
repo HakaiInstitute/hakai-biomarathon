@@ -12,7 +12,9 @@ get_worms_lineage <- function(tax) {
   worms_data <- result[[1]]
 
   if (!is.data.frame(worms_data)) {
-    return(tibble(Species = tax)) # fallback: just return species name
+    # fallback: just return the species name; map_dfr() will fill every
+    # other lineage column with NA for this row when it row-binds results
+    return(tibble(Species = tax))
   }
 
   # convert worms_data into wide form
@@ -21,13 +23,15 @@ get_worms_lineage <- function(tax) {
   lineage$Species <- tax # retain for joining
 
   # get id number from worms, format it for AphiaID/LSID
-  lineage$AphiaID <- paste0(
-    "urn:lsid:marinespecies.org:taxname:",
-    last(worms_data$id)
-  )
+  aphia_id <- last(worms_data$id)
+  lineage$AphiaID <- paste0("urn:lsid:marinespecies.org:taxname:", aphia_id)
 
   # get the rank of the lowest taxon
   lineage$Rank <- last(worms_data$rank)
+
+  # look up authority here (once per unique species) instead of later
+  # (once per ASV), since many ASVs share the same species/AphiaID
+  lineage$scientificNameAuthorship <- get_authority(aphia_id)
 
   lineage
 }
@@ -72,7 +76,8 @@ taxtab_COI <- fread(
 colnames(taxtab_COI)[-1] <- str_to_title(colnames(taxtab_COI)[-1])
 taxtab_COI <- taxtab_COI |> column_to_rownames("number_query")
 
-# Convert to taxonomyTable class
+# Route through phyloseq's tax_table() purely to force a uniform character
+# matrix (rownames = ASV)
 tax_tab_COI <- as.data.frame(tax_table(as.matrix(taxtab_COI)))
 
 # Make uncultured to unknown, then recode all placeholder labels as NA
@@ -101,6 +106,9 @@ tax_lookup_tbl <- tax_tab_COI |>
   mutate(
     Species = gsub(qualifier_pattern, "", Species),
     Species = gsub("sp\\..*", "", Species),
+    # Strip non-taxonomic placeholder/clade codes (e.g., candidate lineage
+    # names such as HIMB59, RCA23) that the classifier reports in place of
+    # an actual species epithet
     Species = gsub(
       "2 ML-2018|HIMB59|RCA23|A6200|CMC02|NN016038|FS 5|HTCC1062|IMCC1322|1 AM-2017|CMC01|1 ML-2018",
       "",
@@ -112,7 +120,8 @@ tax_lookup_tbl <- tax_tab_COI |>
 # Save locally
 write.csv(
   tax_lookup_tbl,
-  here("data", "tax_lookup_tbl.csv")
+  here("data", "tax_lookup_tbl.csv"),
+  row.names = FALSE
 )
 
 ### Convert to WoRMS ---
@@ -142,18 +151,11 @@ worms_taxonomy_tbl <- purrr::map_dfr(unique_species_COI, get_worms_lineage)
 ## 1 602771 Amicula                               A. Witkowski, H. Lange-Bertalot & D. Metzeltin, 2000                      accepted
 ## 1 338908 Lepidasthenia longicirrata            Berkeley, 1923                                                            accepted
 
-# Join lineage info back to ASVs, add authority, and finalize DwC columns
+# Join lineage info (including authorship, looked up per unique species in
+# get_worms_lineage) back to ASVs, and finalize DwC columns
 worms_tax_tab_COI_full <- tax_lookup_tbl |>
   left_join(worms_taxonomy_tbl, by = "Species") |>
   rename(scientificNameID = AphiaID, taxonRank = Rank) |>
-  mutate(
-    aphiaID = as.numeric(sub(
-      "urn:lsid:marinespecies.org:taxname:",
-      "",
-      scientificNameID
-    )),
-    scientificNameAuthorship = sapply(aphiaID, get_authority)
-  ) |>
   column_to_rownames("ASV") |>
   select(
     kingdom = Kingdom,
@@ -170,17 +172,16 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
     identificationQualifier
   )
 
-# Print species that don't have an LSID
-worms_tax_tab_COI_full[is.na(worms_tax_tab_COI_full$scientificNameID), ]
+# Species that don't have an LSID (no WoRMS match found)
+missing_aphiaid <- worms_tax_tab_COI_full |>
+  filter(is.na(scientificNameID))
+missing_aphiaid
 
 # There are 87 unique taxa that do not have an associated scientificNameID
 # or taxonomic hierarchical information. Verify with Libby and Matt
 # that these can be omitted from OBIS submission.
-no_aphiaid <- worms_tax_tab_COI_full[
-  is.na(worms_tax_tab_COI_full$scientificNameID),
-] |>
-  select(scientificName, verbatimIdentification) |>
-  unique()
+no_aphiaid <- missing_aphiaid |>
+  distinct(scientificName, verbatimIdentification)
 
 # Save locally
 write.csv(
