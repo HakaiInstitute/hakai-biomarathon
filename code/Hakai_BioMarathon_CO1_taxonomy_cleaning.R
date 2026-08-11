@@ -60,7 +60,7 @@ na_labels <- c(
   "unknown genus",
   "uncultured *"
 )
-qualifier_pattern <- "cf. promare|cf. depressum|cf. urtica|aff. granulata|cf. pugettensis|aff. obscurus|cf. curdieana"
+qualifier_pattern <- "cf. promare|cf. depressum|cf. pugettensis|aff. obscurus|cf. curdieana|var. palustre"
 
 # Read in taxonomic data, filter for Eukaryota and Bacteria
 taxtab_COI <- fread(
@@ -132,25 +132,25 @@ worms_taxonomy_tbl <- purrr::map_dfr(unique_species_COI, get_worms_lineage)
 
 ## 1 696531 Nitzschia dissipata var antartica     Peragallo, 1921                                                           unassessed
 ## 2 172375 Fallacia                              A.J. Stickle & D.G. Mann in F.E. Round, R.M. Crawford & D.G. Mann, 1990   accepted
-## 1 149142 Navicula                              J.B.M. Bory de Saint-Vincent, 1822                                        accepted
 ## 1 149045 Nitzschia                             A.H. Hassall, 1845                                                        accepted
+## 1 149142 Navicula                              J.B.M. Bory de Saint-Vincent, 1822                                        accepted
+## 1 129619 Polydora                              Bosc, 1802                                                                accepted
 ## 1 110993 Alcyonidium                           Lamouroux, 1813                                                           accepted
 ## 2 333595 Hermadion truncata                    (Czerniavsky, 1882)                                                       nomen dubium
+## 1 120564 Hyalodiscus                           Hertwig & Lesser, 1874                                                    accepted
 ## 2 129296 Glycera                               Lamarck, 1818                                                             accepted
 ## 1 115379 Paralaophonte                         Lang, 1948                                                                accepted
-## 1 120564 Hyalodiscus                           Hertwig & Lesser, 1874                                                    accepted
-## 1 129619 Polydora                              Bosc, 1802                                                                accepted
+## 2 137357 Nais                                  Muller, 1774                                                              accepted
+## 1 143906 Chondria                              C.Agardh, 1817                                                            accepted
 ## 1 345835 Spumellaria                           Ehrenberg, 1875                                                           accepted
 ## 1 415427 Glyptaesopus                          Pilsbry & Olsson, 1941                                                    accepted
-## 2 137357 Nais                                  Muller, 1774                                                              accepted
-## 2 129625 Spio                                  Fabricius, 1785                                                           accepted
 ## 2 138019 Flabellina                            McMurtrie, 1831                                                           accepted
 ## 1 110041 Gonyaulax spinifera                   (Claparede & Lachmann) Diesing, 1866                                      accepted
+## 2 129625 Spio                                  Fabricius, 1785                                                           accepted
 ## 2 130932 Myxicola infundibulum                 (Montagu, 1808)                                                           accepted
 ## 1 196347 Actinocyclus                          Ehrenberg, 1831                                                           accepted
 ## 1 602771 Amicula                               A. Witkowski, H. Lange-Bertalot & D. Metzeltin, 2000                      accepted
-## 1 338908 Lepidasthenia longicirrata            Berkeley, 1923                                                            accepted
-## 1 143906 Chondria                              C.Agardh, 1817                                                            accepted
+## 2 338908 Lepidasthenia longicirrata            Berkeley, 1923                                                            accepted
 
 # Join lineage info (including authorship, looked up per unique species in
 # get_worms_lineage) back to ASVs, and finalize DwC columns
@@ -173,6 +173,19 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
     identificationQualifier
   )
 
+# Join original taxonomy table with the WoRMS cleaned table to
+# do a manual review, joining by ASV
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full |> rownames_to_column("ASV")
+tax_tab_COI <- tax_tab_COI |> rownames_to_column("ASV")
+
+manual_review <- tax_tab_COI |>
+  left_join(worms_tax_tab_COI_full, by = "ASV")
+
+write.csv(
+  manual_review,
+  here("data", "manual_review.csv")
+)
+
 # Species that don't have an LSID (no WoRMS match found)
 missing_aphiaid <- worms_tax_tab_COI_full |>
   filter(is.na(scientificNameID))
@@ -188,12 +201,6 @@ write.csv(
   no_aphiaid,
   here("data", "no_aphiaid.csv"),
   row.names = FALSE
-)
-
-# Create final WoRMS-cleaned taxonomy table
-worms_tax_tab_COI_full <- rownames_to_column(
-  worms_tax_tab_COI_full,
-  var = "ASV"
 )
 
 # Write to csv
