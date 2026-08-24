@@ -250,14 +250,30 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full |> rownames_to_column("ASV")
 tax_tab_COI <- tax_tab_COI |> rownames_to_column("ASV")
 
-# Where a taxa has not resolved at any taxonomic level to WoRMS,
-# change the scientificName to 'incertae sedis', while retaining
-# the original name under verbatimIdentification
+# Where a taxa does not have any associated WoRMS taxonomic data, but that have been
+# identified as (marine) bacteria (by LN) include "incertae sedis" as scientificName.
+incertae_sedis_taxa <- c(
+  "alpha proteobacterium HIMB59",
+  "Planktomarina temperata RCA23",
+  "Polaribacter reichenbachii",
+  "Serratia",
+  "uncultured bacterium TAYNAYA-8",
+  "Myroides odoratimimus",
+  "Methylophilales bacterium",
+  "Ralstonia insidiosa",
+  "Candidatus Pelagibacter giovannonii",
+  "Candidatus Nucleicultrix amoebiphila FS5"
+)
+
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full |>
   mutate(
-    scientificName = if_else(is.na(kingdom), "incertae sedis", scientificName),
+    scientificName = if_else(
+      verbatimIdentification %in% incertae_sedis_taxa,
+      "incertae sedis",
+      scientificName
+    ),
     scientificNameID = if_else(
-      is.na(kingdom),
+      verbatimIdentification %in% incertae_sedis_taxa,
       "urn:lsid:marinespecies.org:taxname:12",
       scientificNameID
     )
