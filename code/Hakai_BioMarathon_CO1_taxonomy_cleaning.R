@@ -101,6 +101,9 @@ tax_lookup_tbl <- tax_tab_COI |>
     ASV,
     verbatimIdentification = Number_lca_taxon,
     identificationQualifier = str_extract(Number_species, qualifier_pattern),
+    # capture the BOLD process/BIN ID (e.g. "BOLD:AAO6949") before it gets
+    # stripped out of Species below by the "sp\\..*" cleanup
+    taxonConceptID = str_extract(scientificName, "BOLD:[A-Z0-9]+"),
     Species = scientificName
   ) |>
   mutate(
@@ -122,6 +125,75 @@ write.csv(
   tax_lookup_tbl,
   here("data", "tax_lookup_tbl.csv"),
   row.names = FALSE
+)
+
+# There are a few taxa names that we have to change, based on conversations with Libby Natola
+# We update those names below before getting their lineage below:
+tax_lookup_tbl$Species <- gsub(
+  "Trieres chinensis",
+  "Odontella chinensis",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Saprolegnia parasitica",
+  "Saprolegnia",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Clydonella sawyeri",
+  "Clydonella",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Nitzschia inconspicua",
+  "Nitschia frustulum var. inconspicua",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Ralfsioid",
+  "Ralfsiaceae",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Chiridota albatrossii complex",
+  "Chiridota albatrossii",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Neoporphyra perforata",
+  "Pyropia perforata",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Schizostauron trachyderma",
+  "Achnanthes trachyderma",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Picobiliphyte",
+  "Picozoa",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Chondria cf. curdieana",
+  "Chondria",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "Candidatus Arcticimaribacter forsetii",
+  "Flavobacteriaceae",
+  tax_lookup_tbl$Species
+)
+tax_lookup_tbl$Species <- gsub(
+  "[Olpidiopsis] porphyrae var. scotiae (nom. inval.)",
+  "Olpidiopsis",
+  tax_lookup_tbl$Species,
+  fixed = TRUE
+)
+tax_lookup_tbl$Species <- gsub(
+  "Olleya aquimaris",
+  "Olleya",
+  tax_lookup_tbl$Species
 )
 
 ### Convert to WoRMS ---
@@ -178,33 +250,22 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full |> rownames_to_column("ASV")
 tax_tab_COI <- tax_tab_COI |> rownames_to_column("ASV")
 
-manual_review <- tax_tab_COI |>
-  left_join(worms_tax_tab_COI_full, by = "ASV")
-
-write.csv(
-  manual_review,
-  here("data", "manual_review.csv")
-)
-
-# Species that don't have an LSID (no WoRMS match found)
-missing_aphiaid <- worms_tax_tab_COI_full |>
-  filter(is.na(scientificNameID))
-missing_aphiaid
-
-# Review taxa without a scientificNameID or taxonomic hierarchy with Libby
-# and Matt before deciding whether they can be omitted from the OBIS submission.
-no_aphiaid <- missing_aphiaid |>
-  distinct(scientificName, verbatimIdentification)
-
-# Save locally
-write.csv(
-  no_aphiaid,
-  here("data", "no_aphiaid.csv"),
-  row.names = FALSE
-)
+# Where a taxa has not resolved at any taxonomic level to WoRMS,
+# change the scientificName to 'incertae sedis', while retaining
+# the original name under verbatimIdentification
+worms_tax_tab_COI_full <- worms_tax_tab_COI_full |>
+  mutate(
+    scientificName = if_else(is.na(kingdom), "incertae sedis", scientificName),
+    scientificNameID = if_else(
+      is.na(kingdom),
+      "urn:lsid:marinespecies.org:taxname:12",
+      scientificNameID
+    )
+  )
 
 # Write to csv
 write.csv(
   worms_tax_tab_COI_full,
-  here("data", "Hakai_BioMarathon_taxonomy_COI_worms.csv")
+  here("data", "Hakai_BioMarathon_taxonomy_COI_worms.csv"),
+  row.names = FALSE
 )

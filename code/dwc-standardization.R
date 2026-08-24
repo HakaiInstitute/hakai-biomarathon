@@ -28,7 +28,8 @@ lab_metadata <- readxl::read_excel(
   sheet = "lab sheet (draft)"
 ) |>
   janitor::clean_names() |>
-  janitor::remove_empty("cols")
+  janitor::remove_empty("cols") |>
+  mutate(tech = gsub("/", " | ", tech, fixed = TRUE))
 field_metadata <- readxl::read_excel(
   here("data", "Lab Metadata Template - Aquatic.xlsx"),
   sheet = "field sheet (draft)"
@@ -59,7 +60,8 @@ meta <- left_join(
     decimalLongitude = longitude,
     fieldNotes = field_notes,
     samplingProtocol = collection_method,
-    country = geo_loc_name
+    country = geo_loc_name,
+    recordedBy = tech
   ) |>
   mutate(
     datasetID = "Hakai-Biomarathon",
@@ -90,7 +92,6 @@ taxonomy <- read_csv(
     "Hakai_BioMarathon_taxonomy_COI_worms.csv"
   )
 )
-taxonomy <- taxonomy[-1]
 
 # Pivot the ASV table
 asv <- asv |>
@@ -153,7 +154,8 @@ occurrence_fields <- c(
   "organismQuantityType",
   "sampleSizeValue",
   "sampleSizeUnit",
-  "materialSampleID"
+  "materialSampleID",
+  "recordedBy"
 )
 event_fields <- c(
   "datasetID",
@@ -191,6 +193,21 @@ HB_occ_core <- HB_occ |>
   left_join(meta, by = c("eventID", "materialSampleID")) |>
   select(all_of(occurrence_fields), all_of(event_fields))
 
+# Validate the Occurrence table
+kit <- biocleanr::dwc_init(
+  "hakai-biomarathon",
+  description = "Hakai Bio Marathon data",
+  standard = "obis"
+) |>
+  biocleanr::dwc_dataset(
+    "Occurrence",
+    HB_occ_core,
+    name = "HB_occ_core"
+  )
+
+report <- biocleanr::dwc_validate(kit)
+report
+
 write_csv(
   HB_occ_core,
   here("obis", "Hakai_BM_occ.csv"),
@@ -204,7 +221,7 @@ write_csv(
 sequence_meta <- DNAtable |>
   dplyr::cross_join(batch_metadata) |>
   mutate(
-    seq_meth = "",
+    seq_meth = paste(platform, instrument_model, sep = " "),
     otu_class_appr = "",
     otu_seq_comp_appr = "",
     otu_db = ""
