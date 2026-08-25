@@ -154,10 +154,10 @@ occurrence_fields <- c(
   "organismQuantityType",
   "sampleSizeValue",
   "sampleSizeUnit",
-  "materialSampleID",
-  "recordedBy"
+  "materialSampleID"
 )
 event_fields <- c(
+  "eventID",
   "datasetID",
   "language",
   "license",
@@ -191,7 +191,8 @@ HB_occ[is.na(HB_occ)] <- ""
 # Create core:
 HB_occ_core <- HB_occ |>
   left_join(meta, by = c("eventID", "materialSampleID")) |>
-  select(all_of(occurrence_fields), all_of(event_fields))
+  select(all_of(occurrence_fields), all_of(event_fields)) |>
+  mutate(occurrenceStatus = "present")
 
 # Validate the Occurrence table
 kit <- biocleanr::dwc_init(
