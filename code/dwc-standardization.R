@@ -192,7 +192,10 @@ HB_occ[is.na(HB_occ)] <- ""
 HB_occ_core <- HB_occ |>
   left_join(meta, by = c("eventID", "materialSampleID")) |>
   select(all_of(occurrence_fields), all_of(event_fields)) |>
-  mutate(occurrenceStatus = "present")
+  mutate(
+    occurrenceStatus = "present",
+    taxonRank = tolower(taxonRank)
+  )
 
 # Validate the Occurrence table
 kit <- biocleanr::dwc_init(
@@ -252,6 +255,16 @@ sequence_meta <- DNAtable |>
 # or where cells are NA make them blank
 sequence_meta <- sequence_meta |>
   filter(!if_all(everything(), ~ is.na(.) | . == ""))
+
+kit <- kit |>
+  biocleanr::dwc_dataset(
+    "dnaDerivedData",
+    sequence_meta,
+    name = "sequence_meta"
+  )
+
+report <- biocleanr::dwc_validate(kit)
+report
 
 # Save this data table in the obis folder
 write_csv(
