@@ -255,6 +255,7 @@ tax_tab_COI <- tax_tab_COI |> rownames_to_column("ASV")
 incertae_sedis_taxa <- c(
   "alpha proteobacterium HIMB59",
   "Planktomarina temperata RCA23",
+  "Urechidicola croceus",
   "Polaribacter reichenbachii",
   "Serratia",
   "uncultured bacterium TAYNAYA-8",
