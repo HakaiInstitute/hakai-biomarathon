@@ -196,7 +196,7 @@ tax_lookup_tbl$Species <- gsub(
   tax_lookup_tbl$Species
 )
 
-### Convert to WoRMS ---
+### Create list of unique taxa
 unique_species_COI <- unique(tax_lookup_tbl$Species)
 
 # Map over unique species names

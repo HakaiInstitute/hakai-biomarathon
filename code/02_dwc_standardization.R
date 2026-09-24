@@ -260,7 +260,7 @@ kit <- kit |>
   biocleanr::dwc_dataset(
     "dnaDerivedData",
     sequence_meta,
-    name = "sequence_meta"
+    name = "DNA Derived"
   )
 
 report <- biocleanr::dwc_validate(kit)

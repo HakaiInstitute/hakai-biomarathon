@@ -1087,7 +1087,7 @@
 "ASV2991","Chromista","Heterokontophyta","Bacillariophyceae","Cymatosirales","Cymatosiraceae","Minutocellus","Minutocellus polymorphus","urn:lsid:marinespecies.org:taxname:464449","Species","Minutocellus polymorphus","(Hargraves & Guillard) Hasle, Stosch & Syvertsen, 1983",NA
 "ASV2993","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. A. Gould, 1850",NA
 "ASV2997","Animalia","Annelida","Polychaeta",NA,"Opheliidae","Armandia","Armandia brevis","urn:lsid:marinespecies.org:taxname:333048","Species","Armandia brevis","(Moore, 1906)",NA
-"ASV3000","Animalia","Mollusca","Gastropoda","Doridida","Corambidae","Corambe","Corambe steinbergae","urn:lsid:marinespecies.org:taxname:535679","Species","Corambe steinbergae","(Lance, 1962)",NA
+"ASV3000","Animalia","Mollusca","Gastropoda","Nudibranchia","Corambidae","Corambe","Corambe steinbergae","urn:lsid:marinespecies.org:taxname:535679","Species","Corambe steinbergae","(Lance, 1962)",NA
 "ASV3003","Animalia","Annelida","Polychaeta","Phyllodocida","Polynoidae","Harmothoe","Harmothoe extenuata","urn:lsid:marinespecies.org:taxname:130762","Species","Harmothoe extenuata","(Grube, 1840)",NA
 "ASV3006","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae","Balanus","Balanus glandula","urn:lsid:marinespecies.org:taxname:394848","Species","Balanus glandula","Darwin, 1854",NA
 "ASV3007","Animalia","Ctenophora","Tentaculata","Cydippida","Cydippidae","Pleurobrachia","Pleurobrachia bachei","urn:lsid:marinespecies.org:taxname:265191","Species","Pleurobrachia bachei","A. Agassiz, in L. Agassiz, 1860",NA
@@ -1494,7 +1494,7 @@
 "ASV4097","Chromista","Heterokontophyta","Bacillariophyceae","Bacillariales","Bacillariaceae","Cylindrotheca","Cylindrotheca closterium","urn:lsid:marinespecies.org:taxname:149004","Species","Cylindrotheca closterium","(Ehrenberg) Reimann & J.C.Lewin, 1964",NA
 "ASV4100","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus","Mytilus trossulus","urn:lsid:marinespecies.org:taxname:140482","Species","Mytilus trossulus","A. A. Gould, 1850",NA
 "ASV4104","Animalia","Mollusca","Bivalvia","Adapedonta","Hiatellidae","Panopea","Panopea generosa","urn:lsid:marinespecies.org:taxname:545994","Species","Panopea generosa","A. A. Gould, 1850",NA
-"ASV4108","Animalia","Mollusca","Gastropoda","Doridida","Onchidorididae","Onchidoris","Onchidoris bilamellata","urn:lsid:marinespecies.org:taxname:150457","Species","Onchidoris bilamellata","(Linnaeus, 1767)",NA
+"ASV4108","Animalia","Mollusca","Gastropoda","Nudibranchia","Onchidorididae","Onchidoris","Onchidoris bilamellata","urn:lsid:marinespecies.org:taxname:150457","Species","Onchidoris bilamellata","(Linnaeus, 1767)",NA
 "ASV4110",NA,NA,NA,NA,NA,NA,"Bos indicus",NA,NA,"Bos indicus",NA,NA
 "ASV4117","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae","Synchaeta","Synchaeta grimpei","urn:lsid:marinespecies.org:taxname:135053","Species","Synchaeta grimpei","Remane, 1929",NA
 "ASV4121","Chromista","Haptophyta","Coccolithophyceae","Phaeocystales","Phaeocystaceae","Phaeocystis","Phaeocystis antarctica","urn:lsid:marinespecies.org:taxname:341585","Species","Phaeocystis antarctica","Karsten, 1905",NA
@@ -2145,7 +2145,7 @@
 "ASV6014","Bacteria","Proteobacteria","Alphaproteobacteria","Rickettsiales",NA,"Candidatus Pelagibacter","Candidatus Pelagibacter","urn:lsid:marinespecies.org:taxname:573762","Genus","Candidatus Pelagibacter","Rappé, Connon, Vergin & Giovannoni, 2002",NA
 "ASV6020","Bacteria","Bacteroidetes","Flavobacteria","Flavobacteriales",NA,NA,"Flavobacteriales","urn:lsid:marinespecies.org:taxname:559998","Order","uncultured Flavobacteriales bacterium",NA,NA
 "ASV6024","Animalia","Arthropoda","Copepoda","Calanoida","Acartiidae","Acartia","Acartia longiremis","urn:lsid:marinespecies.org:taxname:104257","Species","Acartia longiremis","(Lilljeborg, 1853)",NA
-"ASV6025","Animalia","Mollusca","Gastropoda","Doridida","Onchidorididae","Onchidoris","Onchidoris bilamellata","urn:lsid:marinespecies.org:taxname:150457","Species","Onchidoris bilamellata","(Linnaeus, 1767)",NA
+"ASV6025","Animalia","Mollusca","Gastropoda","Nudibranchia","Onchidorididae","Onchidoris","Onchidoris bilamellata","urn:lsid:marinespecies.org:taxname:150457","Species","Onchidoris bilamellata","(Linnaeus, 1767)",NA
 "ASV6026","Bacteria","Proteobacteria","Alphaproteobacteria","Rickettsiales",NA,"Candidatus Pelagibacter","Candidatus Pelagibacter","urn:lsid:marinespecies.org:taxname:573762","Genus","Candidatus Pelagibacter","Rappé, Connon, Vergin & Giovannoni, 2002",NA
 "ASV6032","Animalia","Annelida","Polychaeta",NA,"Opheliidae","Armandia","Armandia brevis","urn:lsid:marinespecies.org:taxname:333048","Species","Armandia brevis","(Moore, 1906)",NA
 "ASV6048","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Saxidomus","Saxidomus nuttalli","urn:lsid:marinespecies.org:taxname:367778","Species","Saxidomus nuttalli","Conrad, 1837",NA
@@ -2538,7 +2538,7 @@
 "ASV7859","Bacteria","Bacteroidetes","Flavobacteria","Flavobacteriales","Flavobacteriaceae","Flavobacterium","Flavobacterium","urn:lsid:marinespecies.org:taxname:562615","Genus","Flavobacterium","Bergey, Harrison, Breed, Hammer & Huntoon, 1923",NA
 "ASV786","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema","urn:lsid:marinespecies.org:taxname:149073","Genus","Skeletonema","R.K. Greville, 1865",NA
 "ASV7867","Chromista","Heterokontophyta","Bacillariophyceae","Thalassiosirales","Skeletonemaceae","Skeletonema","Skeletonema japonicum","urn:lsid:marinespecies.org:taxname:376666","Species","Skeletonema japonicum","Zingone & Sarno, 2005",NA
-"ASV7870","Animalia","Mollusca","Gastropoda","Doridida","Onchidorididae","Onchidoris","Onchidoris muricata","urn:lsid:marinespecies.org:taxname:140640","Species","Onchidoris muricata","(O. F. Müller, 1776)",NA
+"ASV7870","Animalia","Mollusca","Gastropoda","Nudibranchia","Onchidorididae","Onchidoris","Onchidoris muricata","urn:lsid:marinespecies.org:taxname:140640","Species","Onchidoris muricata","(O. F. Müller, 1776)",NA
 "ASV7871","Bacteria","Proteobacteria","Alphaproteobacteria","Rickettsiales",NA,"Candidatus Pelagibacter","Candidatus Pelagibacter","urn:lsid:marinespecies.org:taxname:573762","Genus","Candidatus Pelagibacter","Rappé, Connon, Vergin & Giovannoni, 2002",NA
 "ASV7879",NA,NA,NA,NA,NA,NA,"Tyrophagus fanetzhangorum",NA,NA,"Tyrophagus fanetzhangorum",NA,NA
 "ASV788","Animalia","Arthropoda","Thecostraca","Balanomorpha","Chthamalidae","Chthamalus","Chthamalus dalli","urn:lsid:marinespecies.org:taxname:423276","Species","Chthamalus dalli","Pilsbry, 1916",NA
@@ -2652,7 +2652,7 @@
 "ASV8476","Animalia","Cnidaria","Hexacorallia","Actiniaria","Actiniidae","Anthopleura","Anthopleura elegantissima","urn:lsid:marinespecies.org:taxname:283347","Species","Anthopleura elegantissima","(Brandt, 1835)",NA
 "ASV8481","Chromista","Ochrophyta","Dictyochophyceae","Florenciellales","Florenciellales incertae sedis","Florenciella","Florenciella parvula","urn:lsid:marinespecies.org:taxname:178628","Species","Florenciella parvula","Eikrem, 2004",NA
 "ASV8496","Animalia","Ctenophora","Tentaculata","Cydippida","Cydippidae","Pleurobrachia","Pleurobrachia bachei","urn:lsid:marinespecies.org:taxname:265191","Species","Pleurobrachia bachei","A. Agassiz, in L. Agassiz, 1860",NA
-"ASV8499","Animalia","Mollusca","Gastropoda","Doridida","Actinocyclidae","Actinocyclus","Actinocyclus","urn:lsid:marinespecies.org:taxname:196347","Genus","Actinocyclus sp. (in: diatoms)","Ehrenberg, 1831",NA
+"ASV8499","Animalia","Mollusca","Gastropoda","Nudibranchia","Actinocyclidae","Actinocyclus","Actinocyclus","urn:lsid:marinespecies.org:taxname:196347","Genus","Actinocyclus sp. (in: diatoms)","Ehrenberg, 1831",NA
 "ASV8500","Chromista","Myzozoa","Dinophyceae",NA,NA,NA,"Dinophyceae","urn:lsid:marinespecies.org:taxname:19542","Class","Dinophyceae","Fritsch, 1927",NA
 "ASV8519",NA,NA,NA,NA,NA,NA,"Bos taurus",NA,NA,"Bos taurus",NA,NA
 "ASV852","Animalia","Rotifera","Eurotatoria","Ploima","Synchaetidae",NA,"Synchaetidae","urn:lsid:marinespecies.org:taxname:134924","Family","Synchaetidae sp. COIMB2108","Hudson & Gosse, 1886",NA
