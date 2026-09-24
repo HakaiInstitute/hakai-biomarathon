@@ -13,7 +13,7 @@
 </div>
 
 
-# eDNA collected during the Quadra Island Biomarathon
+# The Quadra Biomarathon: Year-round eDNA samples from Quadra Island, BC (2020-2023)
 
 Lemay, M., Closs, A., Currie-Olsen, D., Fedje, B., Fretwell, K., Froese, T., Hall, K., Janusson, C., Manning, F., Myers, E., Natola, L., Nimmon, A., Okamoto, N., Opie, R., Prentice, C., Sadlier-Brown, G., Whalen, M., & Kellogg, C. (2026). The Quadra Biomarathon: Year-round eDNA samples from Quadra Island, BC (2020-2023) (v1.0). Hakai Institute. https://doi.org/10.21966/059x-wx05
 
