@@ -60,7 +60,7 @@ na_labels <- c(
   "unknown genus",
   "uncultured *"
 )
-qualifier_pattern <- "cf. promare|cf. depressum|cf. pugettensis|aff. obscurus|cf. curdieana|var. palustre"
+qualifier_pattern <- "cf. pugettensis|aff. obscurus"
 
 # Descriptive (morphological) notes that follow "sp." in Number_species, which
 # would otherwise be lost when "sp\\..*" is stripped from scientificName
@@ -73,8 +73,7 @@ asv_ids <- fread(
   data.table = FALSE
 )[[1]]
 
-# Read in taxonomic data, filter for ASVs in the ASV table that are
-# Eukaryota or Bacteria
+# Read in taxonomic data, keeping only the ASVs in the ASV table
 taxtab_COI <- fread(
   here("data", "Biomarathon_taxonomy_file.csv"),
   sep = ",",
@@ -124,83 +123,21 @@ tax_lookup_tbl <- tax_tab_COI |>
   mutate(
     Species = gsub(qualifier_pattern, "", Species),
     Species = gsub("sp\\..*", "", Species),
-    # Strip non-taxonomic placeholder/clade codes (e.g., candidate lineage
-    # names such as HIMB59, RCA23) that the classifier reports in place of
-    # an actual species epithet
+    # Strip non-taxonomic placeholder/clade codes (e.g., A6200, CMC01) that
+    # the classifier reports in place of an actual species epithet
     Species = gsub(
-      "2 ML-2018|HIMB59|RCA23|A6200|CMC02|NN016038|FS 5|HTCC1062|IMCC1322|1 AM-2017|CMC01|1 ML-2018",
+      "2 ML-2018|A6200|CMC02|1 AM-2017|CMC01|1 ML-2018",
       "",
       Species
     ),
     Species = trimws(Species)
   )
 
-# There are a few taxa names that we have to change, based on conversations with Libby Natola
-# We update those names below before getting their lineage below:
-tax_lookup_tbl$Species <- gsub(
-  "Trieres chinensis",
-  "Odontella chinensis",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Saprolegnia parasitica",
-  "Saprolegnia",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Clydonella sawyeri",
-  "Clydonella",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Nitzschia inconspicua",
-  "Nitschia frustulum var. inconspicua",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Ralfsioid",
-  "Ralfsiaceae",
-  tax_lookup_tbl$Species
-)
+# One taxon name has to be changed, based on conversations with Libby Natola.
+# We update it below before getting its lineage:
 tax_lookup_tbl$Species <- gsub(
   "Chiridota albatrossii complex",
   "Chiridota albatrossii",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Neoporphyra perforata",
-  "Pyropia perforata",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Schizostauron trachyderma",
-  "Achnanthes trachyderma",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Picobiliphyte",
-  "Picozoa",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Chondria cf. curdieana",
-  "Chondria",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "Candidatus Arcticimaribacter forsetii",
-  "Flavobacteriaceae",
-  tax_lookup_tbl$Species
-)
-tax_lookup_tbl$Species <- gsub(
-  "[Olpidiopsis] porphyrae var. scotiae (nom. inval.)",
-  "Olpidiopsis",
-  tax_lookup_tbl$Species,
-  fixed = TRUE
-)
-tax_lookup_tbl$Species <- gsub(
-  "Olleya aquimaris",
-  "Olleya",
   tax_lookup_tbl$Species
 )
 
@@ -247,36 +184,6 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
 # do a manual review, joining by ASV
 worms_tax_tab_COI_full <- worms_tax_tab_COI_full |> rownames_to_column("ASV")
 tax_tab_COI <- tax_tab_COI |> rownames_to_column("ASV")
-
-# Where a taxa does not have any associated WoRMS taxonomic data, but that have been
-# identified as (marine) bacteria (by LN) include "incertae sedis" as scientificName.
-incertae_sedis_taxa <- c(
-  "alpha proteobacterium HIMB59",
-  "Planktomarina temperata RCA23",
-  "Urechidicola croceus",
-  "Polaribacter reichenbachii",
-  "Serratia",
-  "uncultured bacterium TAYNAYA-8",
-  "Myroides odoratimimus",
-  "Methylophilales bacterium",
-  "Ralstonia insidiosa",
-  "Candidatus Pelagibacter giovannonii",
-  "Candidatus Nucleicultrix amoebiphila FS5"
-)
-
-worms_tax_tab_COI_full <- worms_tax_tab_COI_full |>
-  mutate(
-    scientificName = if_else(
-      verbatimIdentification %in% incertae_sedis_taxa,
-      "incertae sedis",
-      scientificName
-    ),
-    scientificNameID = if_else(
-      verbatimIdentification %in% incertae_sedis_taxa,
-      "urn:lsid:marinespecies.org:taxname:12",
-      scientificNameID
-    )
-  )
 
 # Write to csv
 write.csv(

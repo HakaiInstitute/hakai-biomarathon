@@ -21,12 +21,11 @@ The scripts in this folder turn the Hakai BioMarathon CO1 eDNA data into Darwin 
 
 Cleans the ASV taxonomy and matches it to the World Register of Marine Species (WoRMS).
 
-- Reads the classifier output (`data/Biomarathon_taxonomy_file.csv`) and keeps only Eukaryota and Bacteria.
+- Reads the classifier output (`data/Biomarathon_taxonomy_file.csv`) and keeps only the ASVs that are in `data/Biomarathon_ASV_table_MarineInverts.csv`.
 - Takes the most specific rank available for each ASV as its `scientificName`.
-- Extracts the identification qualifiers (cf./aff.) and BOLD BIN IDs, and strips non-taxonomic clade or strain codes from the names. The intermediate lookup table is saved to `data/tax_lookup_tbl.csv`.
-- Replaces a small set of names with ones WoRMS recognizes, based on review by a Subject Matter Expert.
+- Extracts identification qualifiers (cf./aff.), identification remarks and BOLD BIN IDs, and strips non-taxonomic clade or strain codes from the names.
+- Replaces names that WoRMS doesn't recognize, based on review by a Subject Matter Expert.
 - Queries WoRMS once for each unique name to get the full lineage, AphiaID (`scientificNameID`), rank and authorship.
-- Assigns "incertae sedis" to bacterial taxa that have no WoRMS match.
 - Writes `data/Hakai_BioMarathon_taxonomy_COI_worms.csv`, one row per ASV.
 
 ## 02_dwc_standardization.R
