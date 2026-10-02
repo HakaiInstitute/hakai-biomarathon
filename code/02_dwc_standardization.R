@@ -187,6 +187,7 @@ event_fields <- c(
   "minimumDepthInMeters",
   "maximumDepthInMeters",
   "samplingProtocol",
+  "recordedBy",
   "country",
   "eventDate",
   "year",
