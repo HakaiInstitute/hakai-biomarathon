@@ -1463,7 +1463,7 @@ ASV12302,Crassostrea gigas,Crassostrea gigas,urn:lsid:marinespecies.org:taxname:
 ASV1047,Ostrea lurida,Ostrea lurida,urn:lsid:marinespecies.org:taxname:542155,,,TRUE
 ASV1130,Ostrea lurida,Ostrea lurida,urn:lsid:marinespecies.org:taxname:542155,,,TRUE
 ASV2852,Ostrea lurida,Ostrea lurida,urn:lsid:marinespecies.org:taxname:542155,,,TRUE
-ASV4870,Margaritifera falcata,Margaritifera falcata,,,,TRUE
+ASV4870,Margaritifera falcata,,,,,FALSE
 ASV7212,Callithaca tenerrima,Callithaca tenerrima,urn:lsid:marinespecies.org:taxname:507494,,,TRUE
 ASV4940,Humilaria kennerleyi,Humilaria kennerleyi,urn:lsid:marinespecies.org:taxname:507686,,,TRUE
 ASV10004,Leukoma staminea,Leukoma staminea,urn:lsid:marinespecies.org:taxname:507737,,,TRUE
@@ -1593,7 +1593,7 @@ ASV3676,Lottia scutum,Lottia scutum,urn:lsid:marinespecies.org:taxname:456605,,,
 ASV8822,Lottia sp. 16_LC_002,Lottia,urn:lsid:marinespecies.org:taxname:160336,,,TRUE
 ASV3415,Lottia sp. USNM IZ 1503302,Lottia,urn:lsid:marinespecies.org:taxname:160336,,,TRUE
 ASV4754,Lottia sp. USNM IZ 1503302,Lottia,urn:lsid:marinespecies.org:taxname:160336,,,TRUE
-ASV10266,Sulcospira,Sulcospira,,,,TRUE
+ASV10266,Sulcospira,,,,,FALSE
 ASV3644,Cephalaspidea,Cephalaspidea,urn:lsid:marinespecies.org:taxname:154,,,TRUE
 ASV5344,Cephalaspidea,Cephalaspidea,urn:lsid:marinespecies.org:taxname:154,,,TRUE
 ASV6071,Cephalaspidea,Cephalaspidea,urn:lsid:marinespecies.org:taxname:154,,,TRUE

@@ -85,12 +85,15 @@ meta <- left_join(
 
 ## Create Occurrence Core
 
-# Read in the cleaned worms taxonomy table
+# Read in the cleaned worms taxonomy table. Read all columns as character:
+# sparse columns (e.g. taxonConceptID) are empty in the first rows, so readr
+# would otherwise guess them as logical and drop their values
 taxonomy <- read_csv(
   here(
     "data",
     "Hakai_BioMarathon_taxonomy_COI_worms.csv"
-  )
+  ),
+  col_types = cols(.default = col_character())
 )
 
 # Pivot the ASV table, keeping only the seawater sample columns. Field blanks
@@ -159,6 +162,7 @@ occurrence_fields <- c(
   "verbatimIdentification",
   "identificationQualifier",
   "identificationRemarks",
+  "taxonConceptID",
   "organismQuantity",
   "organismQuantityType",
   "sampleSizeValue",
@@ -279,5 +283,34 @@ report
 write_csv(
   sequence_meta,
   here("obis", "HB_DNA_data.csv"),
+  na = ""
+)
+
+## Compare the ASV table against the OBIS submission
+# One row per ASV in the ASV table, showing which taxon it links to and
+# whether it ended up in the occurrence core. Only seawater sample columns
+# are used, so an ASV is not included if all its reads come from blank
+# samples (zero seawater reads), or if it is listed in excluded_asvs
+asv_ids <- readr::read_csv(
+  here("data", "Biomarathon_ASV_table_MarineInverts.csv"),
+  col_select = 1
+) |>
+  dplyr::rename(ASV = row_names)
+
+submitted <- HB_occ |>
+  distinct(ASV, scientificName, scientificNameID, identificationQualifier)
+
+asv_obis_comparison <- asv_ids |>
+  left_join(
+    taxa |> select(ASV = `#Query`, verbatimIdentification = `#lca taxon`),
+    by = "ASV"
+  ) |>
+  left_join(submitted, by = "ASV") |>
+  left_join(taxonomy |> select(ASV, taxonConceptID), by = "ASV") |>
+  mutate(includedInOBIS = ASV %in% submitted$ASV)
+
+write_csv(
+  asv_obis_comparison,
+  here("data", "Biomarathon_ASV_table_obis_comparison.csv"),
   na = ""
 )

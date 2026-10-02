@@ -239,7 +239,8 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
     verbatimIdentification,
     scientificNameAuthorship,
     identificationQualifier,
-    identificationRemarks
+    identificationRemarks,
+    taxonConceptID
   )
 
 # Join original taxonomy table with the WoRMS cleaned table to
