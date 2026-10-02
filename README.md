@@ -19,7 +19,7 @@ Lemay, M., Closs, A., Currie-Olsen, D., Fedje, B., Fretwell, K., Froese, T., Hal
 
 ## Abstract
 
-This data package contains intensive eDNA-based biodiversity survey data near Quadra Island, British Columbia. From 2020-2023 we collected weekly or bi-weekly eDNA samples from a fixed location in Hyacinth Bay (50.117, -125.223). Samples were derived from triplicate 1L seawater samples collected just below the surface. Seawater was filtered using 0.22uL sterivex filters and the resulting eDNA was used for DNA metabarcoding using primers that target a 313bp fragment of the cytochrome c-oxidase subunit 1 (COI) gene. These data provide fine-scale data on the diversity and seasonality or nearshore marine invertebrate communities.
+This data package contains intensive eDNA-based biodiversity survey data near Quadra Island, British Columbia. From 2020–2023 we collected weekly or bi-weekly eDNA samples from a fixed location in Hyacinthe Bay (50.117, -125.223). Samples were derived from triplicate 1 L seawater samples collected just below the surface. Seawater was filtered using 0.22 µm Sterivex filters and the resulting eDNA was used for DNA metabarcoding using primers that target a 313 bp fragment of the cytochrome c-oxidase subunit 1 (COI) gene. These data provide fine-scale data on the diversity and seasonality of nearshore marine invertebrate communities.
 
 ## Method
 
