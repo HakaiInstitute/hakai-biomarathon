@@ -19,7 +19,8 @@ library(hms)
 # Read in the metadata
 batch_metadata <- readxl::read_excel(
   here("data", "Lab Metadata Template - Aquatic.xlsx"),
-  sheet = "batch sheet (draft)"
+  sheet = "batch sheet (draft)",
+  na = c("", "NA")
 ) |>
   janitor::clean_names() |>
   pivot_wider(names_from = column_header, values_from = example_s_for_column)
