@@ -62,7 +62,19 @@ na_labels <- c(
 )
 qualifier_pattern <- "cf. promare|cf. depressum|cf. pugettensis|aff. obscurus|cf. curdieana|var. palustre"
 
-# Read in taxonomic data, filter for Eukaryota and Bacteria
+# Descriptive (morphological) notes that follow "sp." in Number_species, which
+# would otherwise be lost when "sp\\..*" is stripped from scientificName
+remarks_pattern <- "pink proboscis"
+
+# ASVs present in the ASV table; only these need taxonomic cleaning
+asv_ids <- fread(
+  here("data", "Biomarathon_ASV_table_MarineInverts.csv"),
+  select = 1,
+  data.table = FALSE
+)[[1]]
+
+# Read in taxonomic data, filter for ASVs in the ASV table that are
+# Eukaryota or Bacteria
 taxtab_COI <- fread(
   here("data", "Biomarathon_taxonomy_file.csv"),
   sep = ",",
@@ -71,7 +83,9 @@ taxtab_COI <- fread(
 ) |>
   janitor::clean_names() |>
   select(1:number_species) |>
-  filter(number_kingdom %in% c("Eukaryota", "Bacteria"))
+  filter(
+    number_query %in% asv_ids
+  )
 
 colnames(taxtab_COI)[-1] <- str_to_title(colnames(taxtab_COI)[-1])
 taxtab_COI <- taxtab_COI |> column_to_rownames("number_query")
@@ -101,6 +115,7 @@ tax_lookup_tbl <- tax_tab_COI |>
     ASV,
     verbatimIdentification = Number_lca_taxon,
     identificationQualifier = str_extract(Number_species, qualifier_pattern),
+    identificationRemarks = str_extract(Number_species, remarks_pattern),
     # capture the BOLD process/BIN ID (e.g. "BOLD:AAO6949") before it gets
     # stripped out of Species below by the "sp\\..*" cleanup
     taxonConceptID = str_extract(scientificName, "BOLD:[A-Z0-9]+"),
@@ -119,13 +134,6 @@ tax_lookup_tbl <- tax_tab_COI |>
     ),
     Species = trimws(Species)
   )
-
-# Save locally
-write.csv(
-  tax_lookup_tbl,
-  here("data", "tax_lookup_tbl.csv"),
-  row.names = FALSE
-)
 
 # There are a few taxa names that we have to change, based on conversations with Libby Natola
 # We update those names below before getting their lineage below:
@@ -202,26 +210,14 @@ unique_species_COI <- unique(tax_lookup_tbl$Species)
 # Map over unique species names
 worms_taxonomy_tbl <- purrr::map_dfr(unique_species_COI, get_worms_lineage)
 
-## 1 696531 Nitzschia dissipata var antartica     Peragallo, 1921                                                           unassessed
-## 2 172375 Fallacia                              A.J. Stickle & D.G. Mann in F.E. Round, R.M. Crawford & D.G. Mann, 1990   accepted
-## 1 149045 Nitzschia                             A.H. Hassall, 1845                                                        accepted
-## 1 149142 Navicula                              J.B.M. Bory de Saint-Vincent, 1822                                        accepted
 ## 1 129619 Polydora                              Bosc, 1802                                                                accepted
 ## 1 110993 Alcyonidium                           Lamouroux, 1813                                                           accepted
 ## 2 333595 Hermadion truncata                    (Czerniavsky, 1882)                                                       nomen dubium
-## 1 120564 Hyalodiscus                           Hertwig & Lesser, 1874                                                    accepted
 ## 2 129296 Glycera                               Lamarck, 1818                                                             accepted
 ## 1 115379 Paralaophonte                         Lang, 1948                                                                accepted
-## 2 137357 Nais                                  Muller, 1774                                                              accepted
-## 1 143906 Chondria                              C.Agardh, 1817                                                            accepted
-## 1 345835 Spumellaria                           Ehrenberg, 1875                                                           accepted
-## 1 415427 Glyptaesopus                          Pilsbry & Olsson, 1941                                                    accepted
 ## 2 138019 Flabellina                            McMurtrie, 1831                                                           accepted
-## 1 110041 Gonyaulax spinifera                   (Claparede & Lachmann) Diesing, 1866                                      accepted
 ## 2 129625 Spio                                  Fabricius, 1785                                                           accepted
 ## 2 130932 Myxicola infundibulum                 (Montagu, 1808)                                                           accepted
-## 1 196347 Actinocyclus                          Ehrenberg, 1831                                                           accepted
-## 1 602771 Amicula                               A. Witkowski, H. Lange-Bertalot & D. Metzeltin, 2000                      accepted
 ## 2 338908 Lepidasthenia longicirrata            Berkeley, 1923                                                            accepted
 
 # Join lineage info (including authorship, looked up per unique species in
@@ -242,7 +238,8 @@ worms_tax_tab_COI_full <- tax_lookup_tbl |>
     taxonRank,
     verbatimIdentification,
     scientificNameAuthorship,
-    identificationQualifier
+    identificationQualifier,
+    identificationRemarks
   )
 
 # Join original taxonomy table with the WoRMS cleaned table to

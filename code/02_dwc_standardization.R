@@ -93,12 +93,15 @@ taxonomy <- read_csv(
   )
 )
 
-# Pivot the ASV table
+# Pivot the ASV table, keeping only the seawater sample columns. Field blanks
+# also have QU IDs, so select by the seawater IDs in meta rather than prefix
+seawater_samples <- meta$materialSampleID
+
 asv <- asv |>
   dplyr::rename(ASV = row_names) |>
-  select(ASV, starts_with("QU")) |>
+  select(ASV, all_of(seawater_samples)) |>
   pivot_longer(
-    starts_with("QU"),
+    all_of(seawater_samples),
     names_to = "materialSampleID",
     values_to = "organismQuantity"
   ) |>
@@ -123,8 +126,13 @@ fasta_CO1 <- cbind(asv_CO1, DNA_sequence_CO1) |>
   as.data.frame() |>
   dplyr::rename(ASV = asv_CO1, DNA_sequence = DNA_sequence_CO1)
 
+# ASVs to leave out of the submission: freshwater taxa with no WoRMS match
+# (ASV4870 Margaritifera falcata, ASV10266 Sulcospira) as per LN and ML
+excluded_asvs <- c("ASV4870", "ASV10266")
+
 # Join ASV to samples and taxonomic information:
-DNAtable <- dplyr::left_join(asv, taxonomy, by = "ASV")
+DNAtable <- dplyr::left_join(asv, taxonomy, by = "ASV") |>
+  filter(!ASV %in% excluded_asvs)
 DNAtable <- dplyr::inner_join(
   DNAtable,
   meta,
@@ -150,6 +158,7 @@ occurrence_fields <- c(
   "taxonRank",
   "verbatimIdentification",
   "identificationQualifier",
+  "identificationRemarks",
   "organismQuantity",
   "organismQuantityType",
   "sampleSizeValue",
@@ -252,7 +261,7 @@ sequence_meta <- DNAtable |>
   )
 
 # Clean it up - omit rows that are completely NA
-# or where cells are NA make them blank
+# and where cells are NA make them blank
 sequence_meta <- sequence_meta |>
   filter(!if_all(everything(), ~ is.na(.) | . == ""))
 
