@@ -60,6 +60,7 @@ na_labels <- c(
   "unknown genus",
   "uncultured *"
 )
+
 qualifier_pattern <- "cf. pugettensis|aff. obscurus"
 
 # Descriptive (morphological) notes that follow "sp." in Number_species, which

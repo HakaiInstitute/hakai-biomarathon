@@ -170,6 +170,7 @@ occurrence_fields <- c(
   "sampleSizeUnit",
   "materialSampleID"
 )
+
 event_fields <- c(
   "eventID",
   "datasetID",
@@ -241,9 +242,9 @@ sequence_meta <- DNAtable |>
   dplyr::cross_join(batch_metadata) |>
   mutate(
     seq_meth = paste(platform, instrument_model, sep = " "),
-    otu_class_appr = "",
-    otu_seq_comp_appr = "",
-    otu_db = ""
+    otu_class_appr = "100% identity; DADA2 denoising algorithm error model",
+    otu_seq_comp_appr = "blastn;2.14.0;e-value cutoff: 0.00001",
+    otu_db = "NCBI NT;255"
   ) |>
   select(
     occurrenceID,
