@@ -1,0 +1,20 @@
+column header,example(s) for column
+bioproject_accession,(fill in upon NCBI submission)
+library_strategy,AMPLICON
+library_source,metagenomic
+library_selection,PCR
+library_layout,Paired
+platform,Illumina
+instrument_model,NextSeq
+design_description,this study investigates zooplankton and phytoplankton communities from 326 samples collected weekly (2020 and 2021) and biweekly (2021 to 2023) at a single nearshore site
+SOP_link,https://www.protocols.io/view/coi-gene-metabarcoding-library-prep-dual-pcr-metho-261ge5d7yg47/v1  
+target_gene,COI
+target_subfragment,
+pcr_primer_forward,TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGGGWACWGGWTGAACWGTWTAYCCYCC
+pcr_primer_reverse,GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGTAAACTTCAGGGTGACCAAARAAYCA
+pcr_primer_name_forward,mICOIintF_overhang
+pcr_primer_name_reverse,jgHCO2198R_overhang
+pcr_primer_reference,"https://doi.org/10.1186/1742-9994-10-34, https://doi.org/10.1046/j.1095-8312.2003.00197.x "
+insert_size,320 bp
+%PhiX,10%
+files_location,/mnt/Genomics/Working/evan.morien/CO1_runs/biomarathon
