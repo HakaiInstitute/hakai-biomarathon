@@ -11,29 +11,28 @@ library(dplyr)
 library(obistools)
 library(janitor)
 library(here)
-library(readxl)
 library(readr)
 library(lubridate)
 library(hms)
 
-# Read in the metadata
-batch_metadata <- readxl::read_excel(
-  here("data", "Lab Metadata Template - Aquatic.xlsx"),
-  sheet = "batch sheet (draft)",
+# Read in the metadata. guess_max = Inf so that column types are guessed from
+# all rows, not just the first 1000 (some columns are sparse)
+batch_metadata <- readr::read_csv(
+  here("data", "batch_sheet.csv"),
   na = c("", "NA")
 ) |>
   janitor::clean_names() |>
   pivot_wider(names_from = column_header, values_from = example_s_for_column)
-lab_metadata <- readxl::read_excel(
-  here("data", "Lab Metadata Template - Aquatic.xlsx"),
-  sheet = "lab sheet (draft)"
+lab_metadata <- readr::read_csv(
+  here("data", "lab_sheet.csv"),
+  guess_max = Inf
 ) |>
   janitor::clean_names() |>
   janitor::remove_empty("cols") |>
   mutate(tech = gsub("/", " | ", tech, fixed = TRUE))
-field_metadata <- readxl::read_excel(
-  here("data", "Lab Metadata Template - Aquatic.xlsx"),
-  sheet = "field sheet (draft)"
+field_metadata <- readr::read_csv(
+  here("data", "field_sheet.csv"),
+  guess_max = Inf
 ) |>
   janitor::clean_names() |>
   janitor::remove_empty("cols")
@@ -51,7 +50,7 @@ fasta <- seqinr::read.fasta(
 meta <- left_join(
   field_metadata,
   lab_metadata,
-  by = c("sample_id", "sample_type")
+  by = c("sample_id", "sample_type", "field_blank")
 ) |>
   filter(sample_type == "Seawater") |>
   dplyr::rename(
@@ -61,7 +60,6 @@ meta <- left_join(
     decimalLongitude = longitude,
     fieldNotes = field_notes,
     samplingProtocol = collection_method,
-    country = geo_loc_name,
     recordedBy = tech
   ) |>
   mutate(
@@ -79,6 +77,7 @@ meta <- left_join(
     year = as.numeric(lubridate::year(eventDate)),
     month = as.numeric(lubridate::month(eventDate)),
     day = as.numeric(lubridate::day(eventDate)),
+    country = "Canada",
     countryCode = "CA",
     minimumDepthInMeters = sample_depth_m,
     maximumDepthInMeters = sample_depth_m
@@ -252,7 +251,7 @@ sequence_meta <- DNAtable |>
     samp_collec_method = samplingProtocol,
     sop = SOP_link,
     target_gene,
-    target_subfragment = target_subragment,
+    target_subfragment,
     samp_size = volume_filtered_ml,
     pcr_primer_forward,
     pcr_primer_name_forward,
