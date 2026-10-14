@@ -100,6 +100,9 @@ taxonomy <- read_csv(
 # also have QU IDs, so select by the seawater IDs in meta rather than prefix
 seawater_samples <- meta$materialSampleID
 
+# Keep the full list of ASVs for the comparison table at the end
+asv_ids <- asv$row_names
+
 asv <- asv |>
   dplyr::rename(ASV = row_names) |>
   select(ASV, all_of(seawater_samples)) |>
@@ -293,16 +296,10 @@ write_csv(
 # whether it ended up in the occurrence core. Only seawater sample columns
 # are used, so an ASV is not included if all its reads come from blank
 # samples (zero seawater reads), or if it is listed in excluded_asvs
-asv_ids <- readr::read_csv(
-  here("data", "Biomarathon_ASV_table_MarineInverts.csv"),
-  col_select = 1
-) |>
-  dplyr::rename(ASV = row_names)
-
 submitted <- HB_occ |>
   distinct(ASV, scientificName, scientificNameID, identificationQualifier)
 
-asv_obis_comparison <- asv_ids |>
+asv_obis_comparison <- tibble(ASV = asv_ids) |>
   left_join(
     taxa |> select(ASV = `#Query`, verbatimIdentification = `#lca taxon`),
     by = "ASV"
