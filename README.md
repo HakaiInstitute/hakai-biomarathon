@@ -27,6 +27,7 @@ Protocol: https://www.protocols.io/view/coi-gene-metabarcoding-library-prep-dual
 
 ## Reports and Publications
 
+- NCBI Raw sequence: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1534537
 - OBIS Record: 
 - Data in eDNA Explorer: 
 
