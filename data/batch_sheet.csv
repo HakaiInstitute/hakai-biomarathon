@@ -12,7 +12,7 @@ target_gene,COI
 target_subfragment,
 pcr_primer_forward,TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGGGWACWGGWTGAACWGTWTAYCCYCC
 pcr_primer_reverse,GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGTAAACTTCAGGGTGACCAAARAAYCA
-pcr_primer_name_forward,mICOIintF_overhang
+pcr_primer_name_forward,mlCOIintF_overhang
 pcr_primer_name_reverse,jgHCO2198R_overhang
 pcr_primer_reference,"https://doi.org/10.1186/1742-9994-10-34, https://doi.org/10.1046/j.1095-8312.2003.00197.x "
 insert_size,320 bp
