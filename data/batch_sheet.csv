@@ -9,7 +9,7 @@ instrument_model,NextSeq
 design_description,this study investigates zooplankton and phytoplankton communities from 326 samples collected weekly (2020 and 2021) and biweekly (2021 to 2023) at a single nearshore site
 SOP_link,https://www.protocols.io/view/coi-gene-metabarcoding-library-prep-dual-pcr-metho-261ge5d7yg47/v1  
 target_gene,COI
-target_subfragment,
+target_subfragment,Leray COI
 pcr_primer_forward,TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGGGWACWGGWTGAACWGTWTAYCCYCC
 pcr_primer_reverse,GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGTAAACTTCAGGGTGACCAAARAAYCA
 pcr_primer_name_forward,mlCOIintF_overhang
