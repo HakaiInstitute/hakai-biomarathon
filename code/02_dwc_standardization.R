@@ -232,7 +232,7 @@ report
 
 write_csv(
   HB_occ_core,
-  here("obis", "Hakai_BM_occ.csv"),
+  here("obis", "Hakai_BioMarathon_occ.csv"),
   na = ""
 )
 
@@ -287,7 +287,7 @@ report
 # Save this data table in the obis folder
 write_csv(
   sequence_meta,
-  here("obis", "HB_DNA_data.csv"),
+  here("obis", "Hakai_BioMarathon_DNADerived_ext.csv"),
   na = ""
 )
 
