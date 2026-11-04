@@ -28,7 +28,7 @@ Protocol: https://www.protocols.io/view/coi-gene-metabarcoding-library-prep-dual
 ## Reports and Publications
 
 - NCBI Raw sequence: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1534537
-- OBIS Record: 
+- OBIS Record: https://ipt.iobis.org/obiscanada/resource?r=hakai-biomarathon-edna
 - Data in eDNA Explorer: 
 
 ## How to Contribute
