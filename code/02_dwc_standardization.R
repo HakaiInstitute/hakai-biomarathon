@@ -59,8 +59,7 @@ meta <- left_join(
     decimalLatitude = latitude,
     decimalLongitude = longitude,
     fieldNotes = field_notes,
-    samplingProtocol = collection_method,
-    recordedBy = tech
+    samplingProtocol = collection_method
   ) |>
   mutate(
     datasetID = "Hakai-Biomarathon",
@@ -191,7 +190,6 @@ event_fields <- c(
   "minimumDepthInMeters",
   "maximumDepthInMeters",
   "samplingProtocol",
-  "recordedBy",
   "country",
   "eventDate",
   "year",
