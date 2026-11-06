@@ -1,0 +1,173 @@
+abstract: This metadata catalogue provides links to an intensive eDNA-based biodiversity
+  survey near Quadra Island, British Columbia. From 2020-2023 we collected weekly
+  or bi-weekly eDNA samples from a fixed location in Hyacinthe Bay (50.117, -125.223).
+  Samples were derived from triplicate 1L seawater samples collected just below the
+  surface. Seawater was filtered using 0.22uL sterivex filters and the resulting eDNA
+  was used for DNA metabarcoding using primers that target a 313bp fragment of the
+  cytochrome c-oxidase subunit 1 (COI) gene. These data provide fine-scale data on
+  the diversity and seasonality of nearshore marine invertebrate communities.
+authors:
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  email: matt.lemay@hakai.org
+  family-names: Lemay
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0001-7051-0020
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Closs
+  given-names: Alana
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Currie-Olsen
+  given-names: Danja
+  orcid: https://orcid.org/0000-0002-9836-9476
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Fedje
+  given-names: Bryn
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Fretwell
+  given-names: Kelly
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Froese
+  given-names: Tyrel
+  orcid: https://orcid.org/0000-0002-6964-8353
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Hall
+  given-names: Kyle
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Janusson
+  given-names: Carly
+  orcid: https://orcid.org/0009-0002-8218-540X
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Manning
+  given-names: Faye
+  orcid: https://orcid.org/0009-0002-9940-2458
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Myers
+  given-names: Emma
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Natola
+  given-names: Libby
+  orcid: https://orcid.org/0000-0001-7576-2825
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Nimmon
+  given-names: Amelia
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Okamoto
+  given-names: Noriko
+  orcid: https://orcid.org/0000-0001-5493-8051
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Opie
+  given-names: Rumer
+  orcid: https://orcid.org/0009-0009-6909-2082
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Prentice
+  given-names: Carolyn
+  orcid: https://orcid.org/0000-0002-9644-8496
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Sadlier-Brown
+  given-names: Gillian
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Whalen
+  given-names: Matthew
+  orcid: https://orcid.org/0000-0002-5262-6131
+  website: https://www.hakai.org/
+- affiliation: Hakai Institute
+  city: Campbell River
+  country: CA
+  family-names: Kellogg
+  given-names: Colleen
+  orcid: https://orcid.org/0000-0003-4048-5316
+  website: https://www.hakai.org/
+- city: Campbell River
+  country: CA
+  email: data@hakai.org
+  name: Hakai Institute
+  website: https://www.hakai.org/
+cff-version: 1.2.0
+date-released: '2026-11-06'
+doi: 10.21966/059x-wx05
+identifiers:
+- description: ca.cioos Unique Identifier
+  type: other
+  value: 6231af54-b405-4b6b-bfb9-4d9fe8ad247d
+- description: Metadata record URL
+  type: url
+  value: https://catalogue.hakai.org/dataset/ca-cioos_6231af54-b405-4b6b-bfb9-4d9fe8ad247d
+- description: DOI
+  type: doi
+  value: 10.21966/059x-wx05
+- description: Metadata Form used to generate this record
+  type: url
+  value: https://hakaiinstitute.github.io/hakai-metadata-entry-form#/en/hakai/jnK2pbrIzbMBHpSiUOi8XDUeev93/-OxCjyjxijloRK4jMXeK
+- description: 'Raw sequence data (NCBI): NCBI record containing the raw sequence
+    data (BioProject: PRJNA1534537)'
+  type: url
+  value: http://www.ncbi.nlm.nih.gov/bioproject/1534537
+- description: 'Processed eDNA data and code: Processed eDNA data (ASV, taxonomy,
+    fasta files) and supporting code stored on GitHub'
+  type: url
+  value: https://github.com/HakaiInstitute/hakai-biomarathon
+keywords:
+- Biodiversity
+- Environmental DNA
+- Marine invertebrates
+- Nearshore ecology
+- Zooplankton
+- invertebrateAbundanceAndDistribution
+- zooplanktonBiomassAndDiversity
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+message: If you use this software, please cite it as below
+title: 'The Quadra Biomarathon: Year-round eDNA samples from Quadra Island, BC (2020-2023)'
+type: dataset
+url: https://catalogue.hakai.org/dataset/ca-cioos_6231af54-b405-4b6b-bfb9-4d9fe8ad247d
+version: '1.0'
