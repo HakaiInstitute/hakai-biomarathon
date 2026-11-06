@@ -59,8 +59,7 @@ meta <- left_join(
     decimalLatitude = latitude,
     decimalLongitude = longitude,
     fieldNotes = field_notes,
-    samplingProtocol = collection_method,
-    recordedBy = tech
+    samplingProtocol = collection_method
   ) |>
   mutate(
     datasetID = "Hakai-Biomarathon",
@@ -191,7 +190,6 @@ event_fields <- c(
   "minimumDepthInMeters",
   "maximumDepthInMeters",
   "samplingProtocol",
-  "recordedBy",
   "country",
   "eventDate",
   "year",
@@ -232,7 +230,7 @@ report
 
 write_csv(
   HB_occ_core,
-  here("obis", "Hakai_BM_occ.csv"),
+  here("obis", "Hakai_BioMarathon_occ.csv"),
   na = ""
 )
 
@@ -287,7 +285,7 @@ report
 # Save this data table in the obis folder
 write_csv(
   sequence_meta,
-  here("obis", "HB_DNA_data.csv"),
+  here("obis", "Hakai_BioMarathon_DNADerived_ext.csv"),
   na = ""
 )
 

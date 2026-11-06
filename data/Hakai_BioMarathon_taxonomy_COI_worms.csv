@@ -1,5 +1,5 @@
 "ASV","kingdom","phylum","class","order","family","genus","scientificName","scientificNameID","taxonRank","verbatimIdentification","scientificNameAuthorship","identificationQualifier","identificationRemarks","taxonConceptID"
-"ASV10004","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Leukoma","Leukoma staminea","urn:lsid:marinespecies.org:taxname:507737","Species","Leukoma staminea","(Conrad, 1837)",NA,NA,NA
+"ASV10004",NA,NA,NA,NA,NA,NA,"Leukoma staminea",NA,NA,"Leukoma staminea",NA,NA,NA,NA
 "ASV1003","Animalia","Annelida","Polychaeta","Spionida","Spionidae","Laonice","Laonice","urn:lsid:marinespecies.org:taxname:129613","Genus","Laonice","Malmgren, 1867",NA,NA,NA
 "ASV10044","Animalia","Bryozoa","Gymnolaemata","Cheilostomatida","Schizoporellidae","Schizoporella","Schizoporella japonica","urn:lsid:marinespecies.org:taxname:470388","Species","Schizoporella japonica","Ortmann, 1890",NA,NA,NA
 "ASV1005","Animalia","Arthropoda","Copepoda","Cyclopoida","Corycaeidae",NA,"Corycaeidae","urn:lsid:marinespecies.org:taxname:128569","Family","Corycaeidae","Dana, 1846",NA,NA,NA
